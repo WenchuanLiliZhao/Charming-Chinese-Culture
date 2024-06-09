@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './BookTocSideNav.scss';
 import SiteInfo from '../../SiteInfo';
 
@@ -38,7 +38,7 @@ export default function BookTocSideNav(props: any) {
         </div>
 
         <div className="book-toc-sidenav-container">
-          <a href={`/${book.info.key}`}>
+          <Link to={`/${book.info.key}`}>
             <div className="book-title-container">
               <div className="book-title">{book.info.title}</div>
               <div className="book-authors">
@@ -53,7 +53,7 @@ export default function BookTocSideNav(props: any) {
                 </>) : (<></>)}
               </div>
             </div>
-          </a>
+          </Link>
 
           <div className="book-toc">
             {toc.map((part: any, i: any) => (
@@ -62,15 +62,15 @@ export default function BookTocSideNav(props: any) {
 
                 <div className="eps">
                   {part.eps.map((ep: any, k: any) => (
-                    <a
+                    <Link
                       className={`ep ${location.pathname.endsWith(ep.info.key) ? 'active' : ''}`}
                       key={`${ep}${k}`}
-                      href={`/${ep.info.key}`}
+                      to={`/${ep.info.key}`}
                     >
                       {ep.info.audio != null && props.hideAudio != true ? audioIcon : noAudioIcon}
                       <span className="text">{ep.info.title}</span>
                       {/* here is the placeholder for the icon of locked item */}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>

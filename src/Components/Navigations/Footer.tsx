@@ -1,6 +1,7 @@
 import "./Footer.scss"
 import SiteInfo from "../../SiteInfo"
 import RootPages from "../../Pages/Root/RootPages"
+import { Link } from "react-router-dom"
 
 
 export default function Footer() {
@@ -20,9 +21,9 @@ export default function Footer() {
         
         <div className="site-footer-content-container">
           <div className="site-footer-about">
-            <a href="/" className="site-footer-title font-article">
+            <Link to="/" className="site-footer-title font-article">
               {SiteInfo.title}
-            </a>
+            </Link>
             <div className="site-footer-brief">
               {SiteInfo.brief}
             </div>
@@ -37,9 +38,9 @@ export default function Footer() {
               <ul className="site-footer-list-container">
                 {rootPages.map((item: any, i: number) => (
                   <li key={`${item}${i}`}>
-                    <a href={`/${item.info.key}`}>
+                    <Link to={`/${item.info.key}`}>
                       {item.info.title}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -53,7 +54,7 @@ export default function Footer() {
               <ul className="site-footer-list-container">
                 {Object.values(SiteInfo.socialMedia).map((item: any, i: number) => (
                   <li key={`${item}${i}`}>
-                    <a href={`${item.url}`}>{item.title}</a>
+                    <Link to={`${item.url}`}>{item.title}</Link>
                   </li>
                 ))}
               </ul>

@@ -1,7 +1,7 @@
 // import { NavLink } from "react-router-dom"
 import RootPages from "../../Pages/Root/RootPages"
 import "./Nav.scss"
-import NavLink2Top from "./NavLink2Top"
+import NavLink2Top from "../Links/NavLink2Top"
 
 export default function Nav() {
   return (<>

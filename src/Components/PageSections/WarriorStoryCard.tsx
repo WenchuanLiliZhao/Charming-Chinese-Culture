@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./WarriorStoryCard.scss"
 
 export default function WarriorStoryCard(props: any) {
@@ -6,7 +7,7 @@ export default function WarriorStoryCard(props: any) {
 
   return (<>
     <section className="page-section-big-alone">
-      <a href={`/${story.info.key}`}>
+      <Link to={`/${story.info.key}`}>
         <div className="warrior-story-card">
 
         <div className="cover-container div-bg-img">
@@ -42,7 +43,7 @@ export default function WarriorStoryCard(props: any) {
         </div>
         
       </div>
-      </a>
+      </Link>
     </section>
   </>)
 }

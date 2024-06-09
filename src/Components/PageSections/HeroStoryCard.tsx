@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HeroStoryCard.scss"
 
 export default function HeroStoryCard(props: any) {
@@ -57,21 +58,21 @@ export default function HeroStoryCard(props: any) {
 
   return (<>
     <section className={`hero-story-card big page-section-fullwidth-alone ${props.className}`}>
-      <a href={link}>
+      <Link to={link}>
         <div className="hero-story-card-container">
           {heroCardInfo}
           {heroCardCover}
         </div>
-      </a>
+      </Link>
     </section>
 
     <section className={`hero-story-card small page-section-fullwidth-alone  ${props.className}`}>
-      <a href={link}>
+      <Link to={link}>
         <div className="hero-story-card-container">
           {heroCardCover}
           {heroCardInfo}
         </div>
-      </a>
+      </Link>
     </section>
   </>)
 }

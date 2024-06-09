@@ -1,5 +1,6 @@
 import "./InstScopesSection.scss"
 import SectionHeader from "../Heading/SectionHeader"
+import { Link } from "react-router-dom"
 
 
 export default function InstScopeSection(props: any) {
@@ -15,7 +16,7 @@ export default function InstScopeSection(props: any) {
 
       <div className="insts">
         {insts.map((item: any, i: any) => (
-          <a href={`/${item.info.key}`} className="inst-scope" key={`${item}${i}`}>
+          <Link to={`/${item.info.key}`} className="inst-scope" key={`${item}${i}`}>
             <div className="inst-cover div-bg-img">
               <div className="img" style={{backgroundImage: `url(${item.info.cover})`}}></div>
               <div className="inst-cover-border"></div>
@@ -28,7 +29,7 @@ export default function InstScopeSection(props: any) {
                 {item.info.location}，{item.info.state}
               </div>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
 
