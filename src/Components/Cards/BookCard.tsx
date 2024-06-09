@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./BookCard.scss"
 
 import Book_The_Lulu from "./Book_The_Lulu";
@@ -6,13 +7,13 @@ export default function BookCard(props: any) {
   // all info
   const book = props.book;
 
-  const key = `/${book.info.key}`
+  const link = `/${book.info.key}`
   const title = book.info.title;
   const authors = book.info.authors;
   const cover = book.info.cover;
 
   return (<>
-    <a href={key} className="book-card">
+    <Link to={link} className="book-card">
       <div className="book-card-cover">
         <Book_The_Lulu cover={cover}/>
       </div>
@@ -29,6 +30,6 @@ export default function BookCard(props: any) {
         </div>
 
       </div>
-    </a>
+    </Link>
   </>)
 }
