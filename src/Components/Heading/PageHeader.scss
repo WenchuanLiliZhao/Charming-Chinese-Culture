@@ -1,0 +1,68 @@
+.root-page-header {
+
+  // max-width 宽度修改这里就好
+  
+  margin-bottom: 0 !important;
+
+  .align {
+    max-width:720px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    &.left {
+      margin-left: 0;
+      text-align: left;
+    }
+  }
+
+  .root-page-header-container {
+
+    border-bottom: 1px dashed rgba(black, 0.08);
+    padding-bottom: 24px;
+
+    // .root-page-title {
+    //   font-size: 32px;
+    //   font-weight: bold;
+
+    //   @media only screen and (max-width: 800px) {
+    //     font-size: 24px;
+    //   }
+    // }
+  
+    .brief {
+      // font-size: 18px;
+      margin-top: 24px;
+
+      // @media only screen and (max-width: 800px) {
+      //   font-size: 16px;
+      // }
+  
+      .brief-paragraph {
+        &:not(:first-of-type) {
+          margin-top: 8px;
+        }
+      }
+
+      &.secondary {
+        color: var(--text-color-secondary-trans);
+      }
+    }
+
+    .authors {
+      margin-top: 24px;
+      color: var(--text-color-secondary-trans);
+      .author {
+        margin-right: 0.5em;
+        .role {
+          // color: var(--text-color-negative-trans);
+          margin-right: 0.25em;
+        }
+        .name {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

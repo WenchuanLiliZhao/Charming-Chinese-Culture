@@ -1,0 +1,39 @@
+.nbl-plus-article {
+  display: flex;
+  margin-top: 32px !important;
+
+  &.inner {
+    margin: 0;
+    article.nbl-plus-article-container {
+      margin: 0;
+    }
+  }
+
+  article.nbl-plus-article-container {
+    max-width: 760px;
+    margin-left: 80px;
+    
+    position: relative;
+
+    @media only screen and (max-width: 1080px) {
+      margin: 0 auto;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    h2 {
+      margin-top: 0.75em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      margin-top: 0.5em;
+    }
+
+    figure {
+      margin: 1em 0;
+    }
+  }
+}

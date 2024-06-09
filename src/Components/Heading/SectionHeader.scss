@@ -1,0 +1,64 @@
+.section-header {
+  padding-bottom: 12px;
+  text-align: center;
+  border-bottom: 1px dashed var(--stroke-color-main-trans);
+  margin-bottom: 24px;
+
+  .section-title-container {
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: var(--font-family-article);
+    font-weight: bold;
+    letter-spacing: 2.4px;
+  }
+  
+  .section-quote-container {
+    margin-top: 8px;
+    vertical-align:baseline;
+    font-size: 14px;
+    line-height: 1.5;
+
+    display: flex;
+    justify-content: center;
+    
+
+    .section-quote {
+      position: relative;
+
+      .from {
+        text-wrap: nowrap;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s;
+
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: 28px;
+
+        background-color: #fafafa;
+        border-radius: 4px;
+        padding: 4px 12px;
+        padding-top: 5px;
+        color: var(--text-color-secondary-trans);
+
+        box-shadow: 0 4px 12px rgba(black, 0.24), 0 1px 3px rgba(black, 0.16);
+
+        cursor: default;
+      }
+
+      &:hover {
+        cursor: help;
+
+        .from {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+
+    
+  }
+}
