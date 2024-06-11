@@ -4,7 +4,7 @@ import Authors from "../../Authors/Authors"
 
 const BookInfo = {
   title: "The Celtic Twilight",
-  key: "books/the-celtic-twilight",
+  key: "the-celtic-twilight",
 
   cover: "https://m.media-amazon.com/images/I/61QP3yABAxL._AC_UF1000,1000_QL80_.jpg",
 

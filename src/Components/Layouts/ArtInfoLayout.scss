@@ -1,18 +1,18 @@
-.book-info-layout {
+.big-art-info-layout {
   --font-size: 16px !important;
   // padding-left: calc(var(--content-h-padding));
   // padding-right: calc(var(--content-h-padding));
   // padding-top: calc(var(--content-v-padding) * 0.7);
   // padding-bottom: calc(var(--content-v-padding) * 0.7);
 
-  .book-info-layout-container {
+  .big-art-info-layout-container {
     position: relative;
     width: 100%;
-    height: var(--book-info-layout-container-height);
+    height: var(--big-art-info-layout-container-height);
 
     display: grid;
-    --book-info-content-width: 560px;
-    grid-template-columns: var(--book-info-content-width) auto;
+    --big-art-info-content-width: 560px;
+    grid-template-columns: var(--big-art-info-content-width) auto;
 
 
     @media only screen and (max-width: 1000px) {
@@ -20,13 +20,13 @@
       display: block !important;
       grid-template-columns: 100%;
 
-      --book-info-content-width: 100%;
+      --big-art-info-content-width: 100%;
 
-      max-width: 760px;
+      
       margin: 0 auto;
-
+      
       .left {
-        .book-info-article {
+        .big-art-info-article {
           max-width: 720px;
           margin: 0 auto;
         }
@@ -36,18 +36,14 @@
         display: none;
       }
       
-      
-
-      .right {
-        display: none;
-      }
-      
     }
 
     .left {
       padding-top: var(--nav-height);
-      max-width: var(--book-info-content-width);
-      .book-info-article {
+      
+      
+      max-width: var(--big-art-info-content-width);
+      .big-art-info-article {
         
         padding-left: calc(var(--content-h-padding));
         padding-right: calc(var(--content-h-padding));
@@ -55,56 +51,40 @@
         padding-bottom: 0;
         
 
-        .book-info-title {
+        .big-art-info-title {
           border-bottom: 1px solid rgba(black, 0.08);
           padding-bottom: 0.5em;
         }
 
-        .book-inline {
+        .big-art-inline {
           @media only screen and (min-width: 1001px) {
             display: none;
           }
 
-          // max-width: 400px;
-          margin: 2em auto;
-          width: 100%;
-          padding: 16px;
+          margin: calc(var(--content-v-padding) * 0.5) 0;
 
-          .book-container {
-            max-width: 480px;
-            margin: 0 auto;
-          }
-          
-
-          background-color: rgba(black, 0.04);
-          border: 1px dashed rgba(black, 0.08);
-          border-radius: 4px;
-
-          .btns {
-            margin-top: 16px;
-            display: flex;
-            justify-content: center;
-            .btn {
-              display: block;
-              width: 160px;
-              text-align: center;
-              padding: 8px 12px;
-              border-radius: 8px;
-  
-              transition: opacity 0.3s;
-              &:hover {
-                opacity: 0.8;
-              }
-  
-              &.positive {
-                background-color: var(--b-color);
-                color: white;
+          .big-art-container {
+            .big-art {
+              position: relative;
+              width: 100%;
+              padding-top: 100%;
+              background-color: rgba(black, 0.04);
+              border: 1px dashed rgba(black, 0.08);
+              border-radius: 4px;
+              img {
+                padding: 16px;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: contain;
               }
             }
           }
         }
 
-        .book-info-table {
+        .big-art-info-table {
           font-size: 14px;
           margin-top: 2em;
           
@@ -216,29 +196,32 @@
       padding-top: var(--nav-height);
       box-shadow: -1px 0 0 rgba(black, 0.08);
       position: fixed;
-      width: calc(100% - var(--book-info-content-width));
+      width: calc(100% - var(--big-art-info-content-width));
       height: 100%;
       right: 0;
       bottom: 0;
       
 
-      .book-container {
+      .big-art-container {
+        // background-color: black;
         position: relative;
         width: 100%;
         height: 100%;
-        padding-left: calc(var(--content-h-padding));
-        padding-right: calc(var(--content-h-padding));
-        padding-top: calc(var(--content-v-padding) * 1.5);
-        padding-bottom: calc(var(--content-v-padding) * 1.5);
+        padding: calc(var(--content-h-padding) * 0.5);
         display: flex;
         justify-content: center;
 
 
-        .book-cover {
+        .big-art {
           position: relative;
-          max-width: 420px;
           width: 100%;
-          align-self: center;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
         }
 
         .btns {

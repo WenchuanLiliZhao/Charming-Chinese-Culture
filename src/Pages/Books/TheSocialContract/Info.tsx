@@ -2,7 +2,7 @@ import Authors from "../../Authors/Authors"
 
 const BookInfo = {
   title: "The Social Contract",
-  key: "books/the-social-contract",
+  key: "the-social-contract",
   
   cover: "https://i.pinimg.com/736x/d1/0e/6d/d10e6d8261c6c3216951d6d7731ea5de.jpg",
 

@@ -1,36 +1,28 @@
-import "./BookInfoLayout.scss";
-
-// import Article from "../Article/Article";
-import Book_The_Lulu from "../Cards/Book_The_Lulu";
+import "./ArtInfoLayout.scss"
+import Stories from "../../Pages/Stories/Stories";
+import Nav from "../Navigations/Nav";
 import DateFormatZh from "../../Functions/DateFormat";
 import Article from "../Article/Article";
 import Footer from "../Navigations/Footer";
-import Stories from "../../Pages/Stories/Stories";
-import Nav from "../Navigations/Nav";
-// import SiteRoof from "../Navigations/SiteRoof";
-// import Nav from "../Navigations/Nav";
-// import PageHeader from "../Heading/PageHeader";
 
-export default function BookInfoLayout(props: any) {
+export default function ArtInfoLayout(props: any) {
   const info = props.info;
-  const startReading = props.startReading;
 
-
-  // 以下，我需要将所有相关的 story 整理出来，放到 book info page 的底部
-  // 但是，很无奈地，首先，story.info 中的 relatedBooks 不能为空，并且，全站至少需要有一个 art 属于 relatedBooks 这个 array 中
+  // 以下，我需要将所有相关的 story 整理出来，放到 art info page 的底部
+  // 但是，很无奈地，首先，story.info 中的 relatedArts 不能为空，并且，全站至少需要有一个 art 属于 relatedArts 这个 array 中
   // 因此，很无奈地，我们必须在一篇模版文章中接入模版 art，否则将无法正常运行程序
   // 目前我还没有找到其他办法
   var relatedStories = [];
+
   for (let i = 0; i < Object.values(Stories).length; i++) {
     const findStory = Object.values(Stories)[i];
 
+    if ("relatedArts" in findStory.info) {
+      const findRelatedArts = findStory.info.relatedArts
 
-    if ("relatedBooks" in findStory.info) {
-      const findRelatedBooks = findStory.info.relatedBooks
-
-      if (findRelatedBooks.length != 0) {
-        for (let k = 0; k < findRelatedBooks.length; k++) {        
-          if (findRelatedBooks[k].info == info) {
+      if (findRelatedArts.length != 0) {
+        for (let k = 0; k < findRelatedArts.length; k++) {        
+          if (findRelatedArts[k].info == info) {
             relatedStories.push(findStory);
           }
         }
@@ -39,14 +31,9 @@ export default function BookInfoLayout(props: any) {
   }
 
   const theBook = (<>
-    <div className="book-container">
-      <div className="book-cover">
-        <Book_The_Lulu cover={info.cover} />
-        <div className="btns">
-          <a className="btn positive" href={`/${startReading.info.key}`}>
-            開始閱讀
-          </a>
-        </div>
+    <div className="big-art-container">
+      <div className="big-art">
+        <img src={info.src} alt="" />
       </div>
     </div>
   </>)
@@ -55,19 +42,19 @@ export default function BookInfoLayout(props: any) {
     <>
       <Nav mode="single" />
 
-      <div className="book-info-layout">
-        <div className="book-info-layout-container">
+      <div className="big-art-info-layout">
+        <div className="big-art-info-layout-container">
           <div className="left">
-            <div className="book-info-article">
-              <header className="book-info-title">
+            <div className="big-art-info-article">
+              <header className="big-art-info-title">
                 <h1 className="title">{info.title}</h1>
               </header>
 
-              <div className="book-inline">
+              <div className="big-art-inline">
                 {theBook}
               </div>
 
-              <div className="book-info-table">
+              <div className="big-art-info-table">
                 {info.authors.map((item: any, i: number) => (
                   <div className="tr" key={`${item.role}-${i}`}>
                     <div className="th">{item.role}</div>
@@ -81,6 +68,19 @@ export default function BookInfoLayout(props: any) {
                   <div className="td">{info.language}</div>
                 </div>
                 ) : (<></>)}
+
+                {info.originalPublishDate != null || info.era ? (
+                  <div className="tr">
+                    <div className="th">原作年代</div>
+                    <div className="td">
+                      {info.originalPublishDate != null ? (
+                        <DateFormatZh date={info.originalPublishDate} />
+                      ) : (
+                        info.era
+                      )}
+                    </div>
+                  </div>
+                ) : null}
 
                 {info.publishDate != null ? (
                   <div className="tr">
@@ -102,13 +102,6 @@ export default function BookInfoLayout(props: any) {
                   </div>
                 ) : null}
 
-                {info.isbn != null ? (
-                  <div className="tr">
-                    <div className="th">ISBN</div>
-                    <div className="td">{info.isbn}</div>
-                  </div>
-                ) : null}
-
                 {info.update != null ? (
                   <div className="tr">
                     <div className="th">最後更新於</div>
@@ -123,33 +116,19 @@ export default function BookInfoLayout(props: any) {
                   <div className="td">{info.copyRight}</div>
                 </div>
 
-                {info.originalPublishDate != null || info.era ? (
+                
+                {info.material != null ? (<>
                   <div className="tr">
-                    <div className="th">初版問世於</div>
+                    <div className="th">材料</div>
                     <div className="td">
-                      {info.originalPublishDate != null ? (
-                        <DateFormatZh date={info.originalPublishDate} />
-                      ) : (
-                        info.era
-                      )}
+                      {info.material}
                     </div>
                   </div>
-                ) : null}
-
-                {info.originalPublisher != null ? (
-                  <div className="tr">
-                    <div className="th">此版出版社</div>
-                    {typeof info.originalPublisher === "string" ? (<>
-                      <div className="td">{info.originalPublisher}</div>
-                    </>) : (<>
-                      <div className="td">{info.originalPublisher.info.title}</div>
-                    </>)}
-                  </div>
-                ) : null}
+                </>) : (<></>)}
               </div>
 
               <Article isInner={true} font="system" className="introduction">
-                <h2>本書介紹</h2>
+                <h2>作品介绍</h2>
                 {props.children}
 
                 {relatedStories.length != 0 ? (

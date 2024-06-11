@@ -41,7 +41,7 @@ export default function PageHeader(props: any) {
           </>) : ""}
 
           {authors != null ? (<>
-            <p className="authors caption">
+            <p className="authors small">
               {authors.map((item: any, i: any) => (
                 <span className="author" key={`${item}${i}`}>
                   <span className="role">{item.role}</span>

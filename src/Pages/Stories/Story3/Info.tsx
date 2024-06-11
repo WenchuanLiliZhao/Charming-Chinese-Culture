@@ -23,7 +23,9 @@ const Info = {
 
   relatedBooks: [
     Books.Book_Nahan_LuXun,
-  ],
+  ], // 不能没有
+
+  relatedArts: [], // 不能没有
 
   brief: "今日的敦煌在努力保護其文化遺產的同時，也在通過國際文化交流活動讓世界認識和欣賞這片土地的獨特魅力。",
 }

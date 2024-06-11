@@ -2,7 +2,7 @@ import Authors from "../../Authors/Authors"
 
 const Info = {
   title: "吶喊",
-  key: "books/na-han",
+  key: "na-han",
 
   copyRight: "公共領域",
 
@@ -10,14 +10,10 @@ const Info = {
   // originalLanguage: "漢語",
 
   // originalPublishDate: [1923,1,1],
-  originalPublishDateString: "1932年",
+  era: "1932年",
 
-  // 这个需要做成数据库 obj
-  originalPublisher: {
-    info: {
-      title: "北京新潮社",
-    }
-  },
+  // 这个需要做成数据库 obj 但也可以是 string
+  originalPublisher: "北京新潮社",
 
   // isbn: "0395977274, 9780395977279",
 

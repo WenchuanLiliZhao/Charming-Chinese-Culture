@@ -5,7 +5,7 @@ import Authors from "../../Authors/Authors"
 
 const BookInfo = {
   title: "Hamlet",
-  key: "books/hamlet",
+  key: "hamlet",
   
   cover: "https://i.pinimg.com/564x/71/5b/3f/715b3f9781c85c27e6ef77f6a5a05530.jpg",
 
