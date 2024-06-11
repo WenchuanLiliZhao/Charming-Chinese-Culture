@@ -4,6 +4,7 @@
   padding-top: 1px;
   padding-bottom: 1px;
   color: var(--text-color-secondary-trans);
+  margin-bottom: 0 !important;
   
   .site-footer-content {
     margin-bottom: 32px;
@@ -73,9 +74,14 @@
   }
 
   .site-footer-bottom {
-    margin-top: 12px;
-    font-size: 12px;
+    
     color: var(--text-color-negative-trans);
-    text-align: right;
+    display: flex;
+    justify-content: right;
+
+    p {
+      margin-top: 12px;
+      font-size: 12px;
+    }
   }
 }

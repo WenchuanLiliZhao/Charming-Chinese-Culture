@@ -16,7 +16,7 @@ export default function HeroStoryCard(props: any) {
   const heroCardCover = (<>
     <div className="hero-story-cover-container div-bg-img ani-img-scale">
       <div className="img"
-        style={{backgroundImage: `url(https://cdn.kastatic.org/ka-perseus-images/a44c5ebf55ef91a9c0ed2fe1eccbfc3d2cf43dcc.jpg)`}}
+        style={{backgroundImage: `url(${story.info.cover})`}}
       ></div>
     </div>
   </>)

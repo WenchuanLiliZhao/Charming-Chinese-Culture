@@ -3,9 +3,12 @@ import RootPages from "../../Pages/Root/RootPages"
 import "./Nav.scss"
 import NavLink2Top from "../Links/NavLink2Top"
 
-export default function Nav() {
+export default function Nav(props: any) {
+  const mode = props.mode
+  // single
+
   return (<>
-    <div className="site-nav">
+    <div className={`site-nav mode-${mode}`}>
       <div className="site-nav-container">
         <NavLink2Top to={`/${RootPages.RootPage_Home.info.key}`} className="item">
           {RootPages.RootPage_Home.info.title}

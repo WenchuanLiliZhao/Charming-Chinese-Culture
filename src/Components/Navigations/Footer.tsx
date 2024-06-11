@@ -63,7 +63,7 @@ export default function Footer() {
         </div>
 
         <div className="site-footer-bottom">
-          &copy;2024 中國文化有意思（Charming Chinese Culture）保留所有權利
+          <p>&copy;2024 中國文化有意思（Charming Chinese Culture）保留所有權利</p>
         </div>
       </section>
     </footer>

@@ -3,12 +3,31 @@ import Authors from "../../Authors/Authors"
 const Info = {
   title: "吶喊",
   key: "books/na-han",
+
+  copyRight: "公共領域",
+
+  language: "漢語",
+  // originalLanguage: "漢語",
+
+  // originalPublishDate: [1923,1,1],
+  originalPublishDateString: "1932年",
+
+  // 这个需要做成数据库 obj
+  originalPublisher: {
+    info: {
+      title: "北京新潮社",
+    }
+  },
+
+  // isbn: "0395977274, 9780395977279",
+
+  update: [2024,4,1],
   
   cover: "https://i.pinimg.com/564x/2f/24/ab/2f24abee10cc1342cd16553ee3d49a48.jpg",
 
   authors: [
     {
-      role: "",
+      role: "作者",
       data: Authors.Author_LuXun,
     },
   ],

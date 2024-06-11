@@ -1,3 +1,4 @@
+import Books from "../../Books/Books"
 import Editors from "../../Editors/Editors"
 
 const Info = {
@@ -13,6 +14,15 @@ const Info = {
       data: Editors.Editor_ShaoQianwen,
       role: "撰文"
     },
+
+    {
+      data: Editors.Editor_ZhaoWenchuan,
+      role: "插圖"
+    },
+  ],
+
+  relatedBooks: [
+    Books.Book_Nahan_LuXun,
   ],
 
   brief: "今日的敦煌在努力保護其文化遺產的同時，也在通過國際文化交流活動讓世界認識和欣賞這片土地的獨特魅力。",

@@ -1,3 +1,4 @@
+import Books from "../../Books/Books"
 import Editors from "../../Editors/Editors"
 
 const Info = {
@@ -13,6 +14,11 @@ const Info = {
       data: Editors.Editor_ShaoQianwen,
       role: "撰文"
     },
+  ],
+
+  relatedBooks: [
+    Books.Book_Nahan_LuXun,
+    Books.Book_Metamathematics,
   ],
 
   brief: "總結來說，敦煌不僅是古代絲綢之路上重要的貿易和文化中心，現在更是一座融合了歷史、藝術與自然美景的城市，繼續在現代大放異彩，吸引著無數人的目光和心靈。探索敦煌，就是在與歷史對話，感受人類文明的磅礡力量。",

@@ -13,6 +13,13 @@
   }
   padding-top: var(--site-roof-height);
 
+  &.mode-single {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding-top: 0 !important;
+  }
+
   .site-nav-container {
     height: var(--nav-height);
     width: 100%;
