@@ -12,6 +12,7 @@ import BookPages from './Pages/Books/BookPages';
 import Editors from './Pages/Editors/Editors';
 import Arts from './Pages/Arts/Arts';
 import Stories from './Pages/Stories/Stories';
+import NotFound from './Pages/NotFound_404';
 
 function App() {
   useState(() => {
@@ -33,9 +34,13 @@ function App() {
     <>
       <div>
         <BrowserRouter>
+
           <Routes>
+            <Route path="*" element={<NotFound />} />
+
             {/* set home page of nbl */}
             <Route index element={RootPages.RootPage_Welcome.content} />
+
 
             {/* import root pages of nbl */}
             {Object.values(RootPages).map((item: any, i: any) => (
