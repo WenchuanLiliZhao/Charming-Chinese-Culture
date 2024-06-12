@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './BookTocSideNav.scss';
 import SiteInfo from '../../SiteInfo';
+import RootPages from '../../Pages/Root/RootPages';
 
 export default function BookTocSideNav(props: any) {
   const { book } = props;
@@ -32,7 +33,7 @@ export default function BookTocSideNav(props: any) {
 
       <div className={`book-toc-sidenav ${isCollapsed ? 'clopen' : ''}`} id="book-toc-sidenav">
         <div className="book-toc-header">
-          <div className="info">{SiteInfo.title}</div>
+          <div className="info"><a href={`/${RootPages.RootPage_Books.info.key}`}>{SiteInfo.title}</a></div>
           <div className="clopen-btn" onClick={toggleSidebar}>
             <span className="material-symbols-outlined icon">list</span>
           </div>

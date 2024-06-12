@@ -39,7 +39,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
 
             {/* set home page of nbl */}
-            <Route index element={RootPages.RootPage_Welcome.content} />
+            <Route index element={RootPages.RootPage_Home.content} />
 
 
             {/* import root pages of nbl */}

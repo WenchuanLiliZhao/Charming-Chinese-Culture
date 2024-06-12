@@ -22,7 +22,7 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
     if (!audioPlayer) return;
 
     const updateProgress = () => {
-      setCurrentTime(audioPlayer.currentTime);
+      setCurrentTime(Math.max(0, audioPlayer.currentTime));
       const percent = (audioPlayer.currentTime / duration) * 100;
       const progressBar = document.getElementById('progress-bar');
       if (progressBar) progressBar.style.width = `${percent}%`;
@@ -36,7 +36,6 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
         }
       });
 
-      // Ensure isPlaying state reflects the actual audio playback status
       if (audioPlayer.paused && isPlaying) {
         setIsPlaying(false);
       } else if (!audioPlayer.paused && !isPlaying) {
@@ -52,12 +51,15 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
       }
     };
 
+    // 获取视频长度
     const setAudioData = () => {
-      setDuration(audioPlayer.duration);
+      const duration = audioPlayer.duration;
+      setDuration(duration);
     };
 
     const handleAudioEnded = () => {
       setIsPlaying(false);
+      setCurrentTime(Math.max(0, audioPlayer.duration));
     };
 
     audioPlayer.addEventListener('timeupdate', updateProgress);
@@ -81,6 +83,9 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
   }, [buffered]);
 
   const formatTime = (time: number) => {
+    if (time < 0) {
+      return "00:00";
+    }
     const minutes = Math.floor(time / 60);
     const seconds = Math.floor(time % 60);
     return [minutes, seconds].map(val => String(val).padStart(2, '0')).join(':');
@@ -109,8 +114,6 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
 
     audioPlayer.currentTime = (offsetX / width) * duration;
 
-    // If clicking the progress bar starts playback,
-    // ensure the play button state is updated
     if (audioPlayer.paused) {
       playPauseHandler();
     }

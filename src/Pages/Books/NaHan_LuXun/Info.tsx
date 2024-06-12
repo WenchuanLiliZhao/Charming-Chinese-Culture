@@ -16,6 +16,7 @@ const Info = {
   originalPublisher: "北京新潮社",
 
   // isbn: "0395977274, 9780395977279",
+  isAudioBook: true,
 
   update: [2024,4,1],
   

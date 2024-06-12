@@ -8,7 +8,7 @@ export default function Content() {
   console.log("EP_002")
 
   return (<>
-    <Layout ep={EPInfo}>
+    <Layout ep={EPInfo} audioEndTime={150}>
       <>
         {/* block 1 */}
         <h2>I</h2>
@@ -59,12 +59,12 @@ export default function Content() {
 
         {/* block 7 */}
         <p>
-          <TS time={153.110}>1902. </TS>
+          1902.
         </p>
 
         {/* block 8 */}
         <p>
-          <TS time={157.690}><strong>W. B. YEATS.</strong> </TS>
+          <strong>W. B. YEATS.</strong>
         </p>
       </>
     </Layout>

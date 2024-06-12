@@ -5,6 +5,8 @@ const Author_LuXun = {
   info: AuthorInfo,
 
   content: Content(),
+
+  puslish: false,
 }
 
 export default Author_LuXun

@@ -1,6 +1,19 @@
 .book-card {
   .book-card-cover {
+    position: relative;
 
+    .audioTag {
+      position: absolute;
+      z-index: 1;
+      background-color: var(--b-color);
+      color: white;
+      font-size: 14px;
+      padding: 4px 8px;
+      box-shadow: 0 2px 4px rgba(black, 0.24);
+
+      top: 12px;
+      right: -6px;
+    }
   }
 
   .book-card-info {

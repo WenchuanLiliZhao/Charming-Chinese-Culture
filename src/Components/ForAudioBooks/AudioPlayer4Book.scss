@@ -6,6 +6,14 @@
   padding: 0 24px;
   left: 0; bottom: 24px;
 
+  @media only screen and (max-width:752px) {
+    padding: 0;
+    bottom: 0;
+
+    .audio-player {
+      border-radius: 0 !important;
+    }
+  }
 
   .audio-player {
     max-width: 752px;
@@ -18,7 +26,7 @@
 
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 8px;
 
     padding: 16px;
 
@@ -61,8 +69,10 @@
       justify-content: space-between;
       gap: 12px;
 
+      
+
       .time-number {
-        font-size: 14px;
+        font-size: 12px;
         color: var(--text-color-secondary-trans);
         flex-shrink: 0;
         width: 48px;
@@ -79,6 +89,8 @@
         flex-shrink: 1;
         
         position: relative;
+
+        
 
         
 

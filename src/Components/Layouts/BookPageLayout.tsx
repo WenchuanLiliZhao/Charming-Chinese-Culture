@@ -9,6 +9,7 @@ export default function BookPageLayout(props: any) {
   
   const book = props.book
   const ep = props.ep
+  const audioEndTime = props.audioEndTime
   
   const contentRef = useRef<HTMLDivElement>(null); // 添加ref
   useEffect(() => {
@@ -39,9 +40,9 @@ export default function BookPageLayout(props: any) {
           </>) : (<></>)}
         </div>
         <div className="md">
-          <ArticleDivider hidden={true} time={0} />
+          <ArticleDivider hidden={true} time={0}/>
           {props.children}
-          <ArticleDivider hidden={false} />
+          <ArticleDivider hidden={false} time={audioEndTime}/>
         </div>
     </div>
   </>)

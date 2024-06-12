@@ -194,13 +194,14 @@
 
     .right {
       padding-top: var(--nav-height);
-      box-shadow: -1px 0 0 rgba(black, 0.08);
+      box-shadow: inset 1px 0 0 rgba(black, 0.08);
       position: fixed;
       width: calc(100% - var(--big-art-info-content-width));
       height: 100%;
       right: 0;
       bottom: 0;
       
+      background-color: rgba(black, 0.08);
 
       .big-art-container {
         // background-color: black;

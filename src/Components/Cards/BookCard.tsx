@@ -15,6 +15,11 @@ export default function BookCard(props: any) {
   return (<>
     <Link to={link} className="book-card">
       <div className="book-card-cover">
+        {book.info.isAudioBook == true ? (<>
+          <div className="audioTag">
+            有聲書
+          </div>
+        </>) : (<></>)}
         <Book_The_Lulu cover={cover}/>
       </div>
       <div className="book-card-info">
@@ -28,7 +33,6 @@ export default function BookCard(props: any) {
             </div>
           ))}
         </div>
-
       </div>
     </Link>
   </>)

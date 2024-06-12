@@ -8,9 +8,14 @@ const Info = {
 
   authors: [
     {
-      role: "作者",
+      role: "繪製",
       data: Authors.Author_LuXun,
-    }
+    },
+
+    // {
+    //   role: "測試",
+    //   data: Authors.Author_GeorgeDouglasHowardCole,
+    // },
   ],
 
   era: "北宋",

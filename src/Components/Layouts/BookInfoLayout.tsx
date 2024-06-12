@@ -60,7 +60,12 @@ export default function BookInfoLayout(props: any) {
           <div className="left">
             <div className="book-info-article">
               <header className="book-info-title">
-                <h1 className="title">{info.title}</h1>
+                <h1 className="title">
+                  {info.title}
+                  {info.isAudioBook == true ? (<>
+                    <span className="audio-book-tag">有聲書</span>
+                  </>) : (<></>) }
+                </h1>
               </header>
 
               <div className="book-inline">
@@ -71,7 +76,11 @@ export default function BookInfoLayout(props: any) {
                 {info.authors.map((item: any, i: number) => (
                   <div className="tr" key={`${item.role}-${i}`}>
                     <div className="th">{item.role}</div>
-                    <div className="td">{item.data.info.title}</div>
+                    <div className="td">
+                      {/* <a href=""> */}
+                        {item.data.info.title}
+                      {/* </a> */}
+                    </div>
                   </div>
                 ))}
 

@@ -58,7 +58,11 @@ export default function ArtInfoLayout(props: any) {
                 {info.authors.map((item: any, i: number) => (
                   <div className="tr" key={`${item.role}-${i}`}>
                     <div className="th">{item.role}</div>
-                    <div className="td">{item.data.info.title}</div>
+                    <div className="td">
+                      <a href="#">
+                        {item.data.info.title}
+                      </a>
+                    </div>
                   </div>
                 ))}
 
@@ -128,7 +132,18 @@ export default function ArtInfoLayout(props: any) {
               </div>
 
               <Article isInner={true} font="system" className="introduction">
-                <h2>作品介绍</h2>
+                <h2>關於作者</h2>
+                {info.authors.map((item: any, i: any) => (
+                  <div key={`${item}${i}`}>
+                    <h3>{item.data.info.title}</h3>
+                    <figure>
+                      <img src={item.data.info.cover} alt="" />
+                    </figure>
+                    <p>{item.data.info.brief}</p>
+                  </div>
+                ))}
+
+                {props.children != null ? (<h2>作品介紹</h2>) : ""}
                 {props.children}
 
                 {relatedStories.length != 0 ? (
