@@ -12,7 +12,7 @@ export default function Content() {
           東京增上寺（ぞうじょうじ）的地藏菩薩們（由 <a href="https://unsplash.com/photos/red-haired-human-statue-pi4lr7TaB7w">Darren Halstead</a> 提供）
         </figcaption>
       </figure>
-      <p>當我與朋友（一位土生土長的東京人）談起整個城市遍佈地藏菩薩的雕像時，他忿忿地說：「日本人在二戰期間做了壞事，因此害怕自己和自己的子孫下地獄。」我為他勇於反思歷史精神感到敬佩，但是，當我帶著懷疑在圖書館查詢資料時，卻得到了皆然不同的答案：那是一段交流和繁榮的歷史。</p>
+      <p>當我與朋友（一位土生土長的東京人）談起整個城市遍佈地藏菩薩的雕像時，他忿忿地說：「日本人在二戰期間做了壞事，因此害怕自己和自己的子孫下地獄。」我為他勇於反思歷史精神感到敬佩，但過分的篤定通常意在掩蓋自己其實並不知道。當我在圖書館查詢資料時，確實得到的是一種有趣且複雜得多的答案，有關一段交流和繁榮的歷史。</p>
       <figure>
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Jizo_Rokuharamitsuji_%28Unkei_attrib%29.jpg" />
         <figcaption>木造地藏菩薩坐像，京都六波羅蜜寺</figcaption>
