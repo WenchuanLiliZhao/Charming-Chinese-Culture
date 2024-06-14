@@ -5,13 +5,18 @@ import Nav from "../../Components/Navigations/Nav";
 import SiteRoof from "../../Components/Navigations/SiteRoof";
 
 export default function StoriesLayout(props: any) {
+  const info = props.info
+
   return (<>
     <SiteRoof />
     <Nav />
 
-    <PageHeader info={props.info} align={`left`}/>
+    <PageHeader info={info} align={`left`}/>
 
     <Article>
+      <figure>
+        <img src={info.cover} />
+      </figure>
       {props.children}
     </Article>
 

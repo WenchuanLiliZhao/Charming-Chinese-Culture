@@ -7,24 +7,19 @@ const Info = {
   update: [2023,1,10],
 
   key: `story1`,
-  cover: "https://i.pinimg.com/564x/07/6e/f1/076ef12a3cefebb101fddcc7aac74940.jpg",
+  cover: "https://i.pinimg.com/originals/eb/42/82/eb4282d96016b5bc9d14b5a31676e645.jpg",
 
   authors: [
     {
-      data: Editors.Editor_ShaoQianwen,
-      role: "撰文"
-    },
-
-    {
       data: Editors.Editor_ZhaoWenchuan,
-      role: "插圖"
+      role: "作者"
     },
   ],
 
   relatedBooks: [], // 不能没有
   relatedArts: [],
 
-  brief: "地藏菩薩，又稱「地藏王菩薩」，是佛教中一位重要的菩薩，以「地獄不空，誓不成佛」的宏大誓願聞名。地藏信仰並非孤立存在，而是與佛教本身的演變以及中國文化相互交織，形成了獨特的文化和宗教學意義。",
+  brief: "爾時地藏菩薩摩訶薩白佛言：世尊，我觀是閻浮眾生，舉心動念，無非是罪。脫獲善利，多退初心。若遇惡緣，念念增益。是等輩人，如履泥塗，負於重石，漸困漸重，足步深邃。若得遇知識，替與減負，或全與負。是知識有大力故，復相扶助，勸令牢腳。若達平地，須省惡路，無再經歷。",
 }
 
 export default Info

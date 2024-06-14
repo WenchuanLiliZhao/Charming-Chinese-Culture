@@ -33,7 +33,22 @@
     }
 
     figure {
-      margin: 1em 0;
+      margin: 2em 0;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    blockquote {
+      margin: 2em 0;
+      border-left: 3px solid rgba(black, 1);
+      padding-left: 1em;
+      font-family: var(--font-family-system);
+
+      p {
+        font-size: calc(var(--font-size) * 0.9);
+      }
     }
   }
 }
