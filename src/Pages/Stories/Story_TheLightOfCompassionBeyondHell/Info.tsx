@@ -6,7 +6,7 @@ const Info = {
 
   update: [2023,1,10],
 
-  key: `story1`,
+  key: `the-light-of-compassion-beyond-hell`,
   cover: "https://i.pinimg.com/originals/eb/42/82/eb4282d96016b5bc9d14b5a31676e645.jpg",
 
   authors: [
