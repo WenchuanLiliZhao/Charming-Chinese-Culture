@@ -24,7 +24,7 @@ export default function Footer() {
             <Link to="/" className="site-footer-title font-article">
               {SiteInfo.title}
             </Link>
-            <div className="site-footer-brief">
+            <div className="site-footer-brief p">
               {SiteInfo.brief}
             </div>
           </div>

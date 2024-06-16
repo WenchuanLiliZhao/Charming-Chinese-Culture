@@ -5,6 +5,8 @@
   padding-bottom: 1px;
   color: var(--text-color-secondary-trans);
   margin-bottom: 0 !important;
+
+  --font-size: 14px;
   
   .site-footer-content {
     margin-bottom: 32px;
@@ -28,7 +30,6 @@
       .site-footer-about {  
         .site-footer-brief {
           margin-top: 12px;
-          font-size: 14px;
           text-align: justify;
         }
       }
@@ -46,7 +47,6 @@
 
         .site-footer-list {
           .site-footer-list-container {
-            font-size: 14px;
             // display: grid;
             // grid-template-columns: 40% auto;
 
@@ -81,7 +81,6 @@
 
     p {
       margin-top: 12px;
-      font-size: 12px;
     }
   }
 }
