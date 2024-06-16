@@ -1,0 +1,12 @@
+.article-el-tips {
+  --font-size: 17px;
+  background-color: rgba(black, 0.04);
+  color: var(--text-color-secondary-trans);
+  padding: 1em;
+  margin: 2em 0;
+
+  .article-el-tips-title {
+    padding: 0;
+    margin-top: 0;
+  }
+}
