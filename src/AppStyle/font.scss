@@ -43,25 +43,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.05em;
 
-  @media only screen and (max-width: 1200px) {
-    --font-size: calc(var(--font-size) * 0.9);
-  }
+  // @media only screen and (max-width: 1200px) {
+  //   --font-size: calc(var(--font-size) * 0.9);
+  // }
 
-  @media only screen and (max-width: 800px) {
-    --font-size: calc(var(--font-size) * 0.88);
-  }
+  // @media only screen and (max-width: 800px) {
+  //   --font-size: calc(var(--font-size) * 0.88);
+  // }
 }
 
 @mixin font-size($factor) {
   font-size: calc(var(--font-size) * $factor);
 
-  // @media only screen and (max-width: 1200px) {
-  //   font-size: calc(var(--font-size) * $factor * 0.9);
-  // }
+  @media only screen and (max-width: 1200px) {
+    font-size: calc(var(--font-size) * $factor * 0.9);
+  }
 
-  // @media only screen and (max-width: 800px) {
-  //   font-size: calc(var(--font-size) * $factor * 0.88);
-  // }
+  @media only screen and (max-width: 800px) {
+    font-size: calc(var(--font-size) * $factor * 0.88);
+  }
 }
 
 p, .p, li {
@@ -79,20 +79,6 @@ p, .p, li {
 
   &.small {
     @include font-size(0.8);
-  }
-}
-
-ol, ul {
-  margin: 1em auto;
-
-  li {
-    margin-left: 2em;
-  }
-}
-
-ol {
-  > li {
-    list-style:decimal;
   }
 }
 
