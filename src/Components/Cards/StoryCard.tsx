@@ -23,11 +23,16 @@ export default function StoryCard(props: any) {
           <div className="story-brief">
             {story.info.brief}
           </div>
-          <div className="story-author-info-container">
+          <div className="story-author-info">
             {story.info.authors.map((item: any, i: any) => (
-              <span className="story-author" key={`${item}${i}`}>
-                {/* <span className="role">{item.role}</span> */}
-                <span className="author-name">{item.data.info.title}</span>
+              <span className="story-author-info-container" key={`${item}${i}`}>
+                {item.display != false ? (<>
+                  <span className="story-author">
+                    {/* <span className="role">{item.role}</span> */}
+                    {i > 0 ? "，" : ""}
+                    <span className="author-name">{item.data.info.title}</span>
+                  </span>
+                </>) : (<></>)}
               </span>
             ))}
 

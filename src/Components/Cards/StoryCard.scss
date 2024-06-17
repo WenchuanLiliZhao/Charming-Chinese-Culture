@@ -48,7 +48,7 @@
       }
     }
 
-    .story-author-info-container {
+    .story-author-info {
       display: flex;
       margin-top: 8px;
       font-size: 14px;
@@ -61,20 +61,15 @@
       -webkit-line-clamp: 1;
       -webkit-box-orient: vertical;
 
-      .story-author {
-        display: inline;
-        font-weight: bold;
-
-        .role {
-          color: var(--text-color-secondary-trans);
-          margin-right: 4px;
-        }
-
-        &:not(:first-of-type) {
-          margin-left: 8px;
-          // &::before {
-          //   content: "，"
-          // }
+      .story-author-info-container {
+        .story-author {
+          display: inline;
+          font-weight: bold;
+  
+          .role {
+            color: var(--text-color-secondary-trans);
+            margin-right: 4px;
+          }
         }
       }
 

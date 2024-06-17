@@ -6,7 +6,7 @@ const Info = {
   title: "《幾何原本》的中國之旅",
 
   update: [2023,1,10],
-
+  
   key: `a-journey-of-elements-in-china`,
   cover: "https://i.pinimg.com/originals/86/b7/6b/86b76b21b24f6f7f9b45374a4a2ab695.jpg",
 
