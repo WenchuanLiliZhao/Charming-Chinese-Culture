@@ -13,6 +13,7 @@ export default function Content() {
         books={[
         Books.Book_Nahan_LuXun,
         Books.Book_Hamlet,
+        Books.Book_KsitigarbhaBodhisattvaPurvaPranidhanaSutra,
         Books.Book_TheCelticTwilight,
         Books.Book_TheSocialContract,
       ]} />

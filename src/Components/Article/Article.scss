@@ -23,6 +23,16 @@
       margin-top: 0;
     }
 
+    .book-card {
+      max-width: 400px !important;
+      padding: calc(var(--content-h-padding) / 2);
+      background-color: rgba(black, 0.04);
+      border-radius: 8px;
+      margin: 0 auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
     h2 {
       margin-top: 1.5em;
       margin-bottom: 1em;

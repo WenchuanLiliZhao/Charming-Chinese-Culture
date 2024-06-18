@@ -19,7 +19,7 @@ const Info = {
 
   relatedBooks: [
     Books.Book_Nahan_LuXun,
-    Books.Book_Metamathematics,
+    Books.Book_KsitigarbhaBodhisattvaPurvaPranidhanaSutra,
   ], // 不能没有
 
   relatedArts: [

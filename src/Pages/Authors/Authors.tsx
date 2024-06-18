@@ -4,6 +4,7 @@ import Author_JeanJacquesRousseau from "./JeanJacquesRousseau/0_Repo";
 import Author_JosephNeedham from "./JosephNeedham/0_Repo";
 import Author_LuXun from "./LuXun/0_Repo";
 import Author_Shakespeare from "./Shakespeare/0_Repo";
+import Author_Unknwon from "./Unknown/0_Repo";
 import Author_WarrenGoldfarb from "./WarrenGoldfarb/0_Repo";
 import Author_Yeats from "./Yeats/0_Repo";
 
@@ -19,6 +20,7 @@ const Authors = {
   Author_WarrenGoldfarb,
 
   Author_JosephNeedham,
+  Author_Unknwon,
 }
 
 export default Authors

@@ -13,11 +13,11 @@ export default function Content() {
 
       <StoriesSection
         stories = {[
-          Stories.NBL_Story1,
-          Stories.NBL_Story2,
-          Stories.NBL_Story3,
+          Stories.Story_TheLightOfCompassionBeyondHell,
+          Stories.Story_AJourneyOfElementsInChina,
+          Stories.NBL_ScienceAndCivilizationInChina,
           Stories.NBL_Story4,
-          Stories.NBL_Story1,
+          Stories.Story_TheLightOfCompassionBeyondHell,
         ]}
       />
     </RootLayout>
