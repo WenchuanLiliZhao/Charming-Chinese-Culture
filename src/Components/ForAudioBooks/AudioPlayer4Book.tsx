@@ -186,7 +186,7 @@ const AudioPlayer4Book: React.FC<AudioPlayerProps> = ({ src }) => {
       document.removeEventListener('touchmove', handleTouchMove);
       document.removeEventListener('touchend', handleTouchEnd);
     };
-  }, [isDragging, isPlaying, duration]);
+  }, [isDragging, isPlaying, duration, draggingHandler, dragEndHandler]);
 
   const location = useLocation();
 

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // import { NavLink } from "react-router-dom"
 import RootPages from "../../Pages/Root/RootPages"
 import "./Nav.scss"
@@ -14,17 +15,17 @@ export default function Nav(props: any) {
           {RootPages.RootPage_Home.info.title}
         </NavLink2Top>
 
-        <NavLink2Top to={`/${RootPages.RootPage_Activities.info.key}`} className="item">
-          {RootPages.RootPage_Activities.info.title}
+        <NavLink2Top to={`/${RootPages.RootPage_Products.info.key}`} className="item">
+          {RootPages.RootPage_Products.info.title}
         </NavLink2Top>
 
         <NavLink2Top to={`/${RootPages.RootPage_Stories.info.key}`} className="item">
           {RootPages.RootPage_Stories.info.title}
         </NavLink2Top>
 
-        <NavLink2Top to={`/${RootPages.RootPage_Books.info.key}`} className="item">
+        {/* <NavLink2Top to={`/${RootPages.RootPage_Books.info.key}`} className="item">
           {RootPages.RootPage_Books.info.title}
-        </NavLink2Top>
+        </NavLink2Top> */}
 
         <NavLink2Top to={`/${RootPages.RootPage_About.info.key}`} className="item">
           {RootPages.RootPage_About.info.title}

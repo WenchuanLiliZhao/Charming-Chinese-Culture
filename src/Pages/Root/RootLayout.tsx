@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./RootLayout.scss"
 
 import Nav from "../../Components/Navigations/Nav";

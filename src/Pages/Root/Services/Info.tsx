@@ -1,6 +1,6 @@
 const Info = {
-  title: "文章",
-  key: "stories",
+  title: "服務",
+  key: "services",
 
   quote: "至人之用心若鏡，不將不迎，應而不藏，故能勝物而不傷。",
   quoteFrom: "莊子《齊物論》"

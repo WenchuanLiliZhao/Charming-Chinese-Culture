@@ -10,7 +10,7 @@ export default function Footer() {
     RootPages.RootPage_Submit,
     RootPages.RootPage_About,
     RootPages.RootPage_Home,
-    RootPages.RootPage_Activities,
+    RootPages.RootPage_Products,
     RootPages.RootPage_Stories,
     RootPages.RootPage_Books,
   ]

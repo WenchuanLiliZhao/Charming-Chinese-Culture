@@ -1,5 +1,5 @@
 const Info = {
-  title: "主頁",
+  title: "首頁",
   key: "",
 
 }

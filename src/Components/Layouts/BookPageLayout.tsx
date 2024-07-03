@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./BookPageLayout.scss"
 
 import AudioPlayer4Book from "../ForAudioBooks/AudioPlayer4Book"
