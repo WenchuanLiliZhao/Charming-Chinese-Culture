@@ -12,6 +12,7 @@ export default function Content() {
       </p>
 
       <OuterLinkCard
+        link="https://www.nblib.com/"
         title = "知書閱聽圖書館"
         brief = "知書Nowbook是香港電子閱讀領導品牌，「知書閱聽圖書館」由香港聯合出版（集團）子公司聯合電子出版有限公司建立的電子閱讀服務專業平台，專為學校、圖書館及個人用戶提供內容豐富、功能完善、線上線下相結合的一站式電子閱讀服務。聯合電子出版同時也是港澳公共圖書館、高校圖書館及中小學電子圖書館的優質供應商。"
         cover = "https://res.youuu.com/zjres/2023/2/15/9m4IxDipTI40QJVWAIroKoQM93lXYGDxjzg.jpeg"
