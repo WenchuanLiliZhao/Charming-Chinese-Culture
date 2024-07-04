@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import DateFormatZh from "../../Functions/DateFormat";
 import "./StoryCard.scss"

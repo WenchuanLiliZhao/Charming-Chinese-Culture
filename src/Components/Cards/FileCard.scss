@@ -1,0 +1,59 @@
+.lili-file-card {
+  border-radius: 1em;
+  background-color: rgba(black, 0.04);
+  overflow: hidden;
+
+  .lili-file-card-cover {
+    border-radius: 0em;
+  }
+
+  .lili-file-card-caption {
+    padding: 1em;
+    padding-bottom: 1.25em;
+
+    .lili-file-card-title {
+      font-size: 1em;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+
+    .lili-file-card-brief {
+      font-size: 0.8em;
+      font-family: var(--font-family-system);
+      line-height: 1.5;
+      color: var(--text-color-secondary-trans);
+      margin-top: 0.5em;
+    }
+
+    .lili-file-card-link {
+      margin-top: 0.75em;
+      a {
+        font-size: 0.8em;
+        font-weight: bold;
+        font-family: var(--font-family-system);
+        line-height: 1.5;
+        border: 1px solid rgba(black, 0.12);
+        box-shadow: 0 3px 16px rgba(black, 0.08);
+        padding: 0.5em 1em;
+        background-color: white;
+        border-radius: 1000px;
+
+        color: var(--b-color);
+
+        vertical-align: baseline;
+
+        transition: 0.3s;
+        &:hover {
+          box-shadow: 0 6px 16px rgba(black, 0.16);
+        }
+
+        .icon {
+          font-size: 1.125em;
+          vertical-align:text-bottom;
+          margin-right: 0.1em;
+          padding-bottom: 0.025em;
+        }
+      }
+    }
+  }
+}

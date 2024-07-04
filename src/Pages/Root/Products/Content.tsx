@@ -12,7 +12,7 @@ export default function Content() {
 
       <WarriorStoryCard label="活動推薦" story={Stories.Story_TheLightOfCompassionBeyondHell} />
 
-      <WarriorStoryCard label="活動推薦" story={Stories.Story_AJourneyOfElementsInChina} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_ChineseCultureDigitalLibrary} />
 
       <WarriorStoryCard label="活動推薦" story={Stories.NBL_ScienceAndCivilizationInChina} />
 
@@ -23,7 +23,7 @@ export default function Content() {
 
         stories = {[
           Stories.Story_TheLightOfCompassionBeyondHell,
-          Stories.Story_AJourneyOfElementsInChina,
+          Stories.Story_ChineseCultureDigitalLibrary,
           Stories.NBL_ScienceAndCivilizationInChina,
           Stories.NBL_Story4,
         ]}

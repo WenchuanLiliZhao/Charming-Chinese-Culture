@@ -1,0 +1,50 @@
+.lili-outer-link-card {
+  display: flex;
+  // grid-template-columns: 200px auto;
+
+  --cover-width: 240px;
+  @media only screen and (max-width: 600px) {
+    display: block;
+    --cover-width: 100%;
+  }
+
+  font-family: var(--font-family-system);
+  background-color: rgba(black, 0.04);
+  // border: 1px solid rgba(black, 0.04);
+  border-radius: 0.5em;
+  overflow: hidden;
+
+  transition: 0.3s;
+  &:hover {
+    background-color: rgba(black, 0.08);
+  }
+
+  .lili-outer-link-text {
+    padding: 1em;
+    align-self: center;
+
+    .lili-outer-link-title {
+      font-weight: bold;
+    }
+
+    .lili-outer-link-brief {
+      font-size: 0.8em;
+      color: var(--text-color-secondary-trans);
+      margin-top: 0.5em;
+
+      // text-wrap: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  .lili-outer-link-cover {
+    .lili-outer-link-cover-container {
+      width: var(--cover-width);
+      padding-top: 57%;
+    }
+  }
+}
