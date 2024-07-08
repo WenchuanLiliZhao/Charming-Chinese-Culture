@@ -4,11 +4,11 @@ import Insts from "../../Inst/Insts"
 const Info = {
   title: "VR資源庫",
 
-  update: [2023,1,10],
+  update: [2024,7,2],
 
   inst: Insts.NBLInst,
 
-  key: `VRLibrary`,
+  key: `Story_VRLibrary`,
   cover: "https://i.pinimg.com/564x/3d/06/d0/3d06d06111a10fe4bf015ccc6450c977.jpg",
 
   authors: [

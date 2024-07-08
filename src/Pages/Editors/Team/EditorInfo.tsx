@@ -1,5 +1,5 @@
 const EditorInfo = {
-  title: "联合电子出版集团",
+  title: "聯合電子出版集團",
   key: "suep",
 }
 

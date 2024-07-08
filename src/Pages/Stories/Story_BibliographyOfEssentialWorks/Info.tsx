@@ -6,9 +6,9 @@ import Editors from "../../Editors/Editors"
 const Info = {
   title: "常備書目",
 
-  update: [2023,1,10],
+  update: [2024,6,30],
 
-  key: `BibliographyOfEssentialWorks`,
+  key: `Story_BibliographyOfEssentialWorks`,
   cover: "https://lh3.google.com/u/0/d/1qTGktpD50uGygAxezGUE0DSsy9gIxRnu=w3600-h2010-iv1",
 
   authors: [

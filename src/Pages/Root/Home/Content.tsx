@@ -29,6 +29,10 @@ export default function Content() {
           Stories.Story_ExhibitionOfSpecialBookCollections,
           Stories.Story_BibliographyOfEssentialWorks,
           Stories.Story_VRLibrary,
+          Stories.Story_ARMR,
+          Stories.Story_AITools,
+          Stories.Story_HandicraftsLessons,
+          Stories.Story_Hardware,
         ]}
       />
 
