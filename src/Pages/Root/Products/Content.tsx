@@ -12,9 +12,9 @@ export default function Content() {
 
       <WarriorStoryCard label="活動推薦" story={Stories.Story_ExhibitionOfSpecialBookCollections} />
 
-      <WarriorStoryCard label="活動推薦" story={Stories.Story_BibliographyOfEssentialWorks} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_DigitalLibrary} />
 
-      <WarriorStoryCard label="活動推薦" story={Stories.NBL_ScienceAndCivilizationInChina} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_BibliographyOfEssentialWorks} />
 
       <StoriesSection
         label = "往期活動"
@@ -23,9 +23,9 @@ export default function Content() {
 
         stories = {[
           Stories.Story_ExhibitionOfSpecialBookCollections,
+          Stories.Story_DigitalLibrary,
           Stories.Story_BibliographyOfEssentialWorks,
-          Stories.NBL_ScienceAndCivilizationInChina,
-          Stories.NBL_Story4,
+          Stories.Story_VRLibrary,
         ]}
       />
 

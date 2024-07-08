@@ -1,10 +1,10 @@
 import Content from "./Content";
 import Info from "./Info";
 
-const NBL_ScienceAndCivilizationInChina = {
+const Story_BibliographyOfEssentialWorks = {
   info: Info,
 
   content: Content(),
 }
 
-export default NBL_ScienceAndCivilizationInChina
+export default Story_BibliographyOfEssentialWorks

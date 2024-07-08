@@ -2,7 +2,7 @@ import Editors from "../../Editors/Editors"
 
 
 const Info = {
-  title: "中華文化特藏圖書展",
+  title: "特藏圖書展",
 
   update: [2024,7,1],
 
@@ -11,14 +11,9 @@ const Info = {
 
   authors: [
     {
-      data: Editors.Editor_WangChen,
-      role: "撰文",
-    },
-
-    {
-      data: Editors.Editor_ZhouSheng,
-      role: "校稿",
-    },
+      data: Editors.Editor_Team,
+      role: "编辑"
+    }
   ],
 
   relatedBooks: [], // 不能没有

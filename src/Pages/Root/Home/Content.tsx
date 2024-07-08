@@ -17,17 +17,18 @@ export default function Content() {
 
   // console.log(Stories.NBL_Story1)
   return (<>
-    <RootLayout headline={Stories.NBL_Story4} info={Info} showHeader={false}>
+    <RootLayout headline={Stories.Story_VRLibrary} info={Info} showHeader={false}>
 
       <StoriesSection
-        label = "近期文章"
+        label = "產品"
         quote = "學問之道無他，全在求真"
         quoteFrom = "《農政全書》（徐光啓著）"
 
         stories = {[
+          Stories.Story_DigitalLibrary,
           Stories.Story_ExhibitionOfSpecialBookCollections,
           Stories.Story_BibliographyOfEssentialWorks,
-          Stories.NBL_ScienceAndCivilizationInChina,
+          Stories.Story_VRLibrary,
         ]}
       />
 
@@ -55,13 +56,13 @@ export default function Content() {
 
         stories = {[
           Stories.Story_ExhibitionOfSpecialBookCollections,
+          Stories.Story_DigitalLibrary,
           Stories.Story_BibliographyOfEssentialWorks,
-          Stories.NBL_ScienceAndCivilizationInChina,
         ]}
       />
       
 
-      <HeroStoryCard story={Stories.NBL_Story4} />
+      <HeroStoryCard story={Stories.Story_VRLibrary} />
 
 
       <ArtsSection

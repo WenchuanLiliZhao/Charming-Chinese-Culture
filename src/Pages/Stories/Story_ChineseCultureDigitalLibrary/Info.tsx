@@ -3,7 +3,7 @@ import Books from "../../Books/Books"
 import Editors from "../../Editors/Editors"
 
 const Info = {
-  title: "中華文化電子圖書館",
+  title: "電子圖書館",
 
   update: [2024,7,4],
   
@@ -14,14 +14,9 @@ const Info = {
 
   authors: [
     {
-      data: Editors.Editor_WangChen,
-      role: "撰文",
-    },
-
-    {
-      data: Editors.Editor_ZhouSheng,
-      role: "校稿",
-    },
+      data: Editors.Editor_Team,
+      role: "编辑"
+    }
   ],
 
   relatedBooks: [

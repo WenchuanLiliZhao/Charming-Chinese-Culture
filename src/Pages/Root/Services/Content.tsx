@@ -9,14 +9,14 @@ export default function Content() {
   return (<>
     <RootLayout info={Info}>
 
-      <WarriorStoryCard story={Stories.NBL_Story4} />
+      <WarriorStoryCard story={Stories.Story_VRLibrary} />
 
       <StoriesSection
         stories = {[
           Stories.Story_ExhibitionOfSpecialBookCollections,
+          Stories.Story_DigitalLibrary,
           Stories.Story_BibliographyOfEssentialWorks,
-          Stories.NBL_ScienceAndCivilizationInChina,
-          Stories.NBL_Story4,
+          Stories.Story_VRLibrary,
           Stories.Story_ExhibitionOfSpecialBookCollections,
         ]}
       />

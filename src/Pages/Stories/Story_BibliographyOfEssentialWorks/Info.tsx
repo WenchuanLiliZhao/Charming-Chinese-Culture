@@ -4,7 +4,7 @@ import Editors from "../../Editors/Editors"
 // import Editors from "../../Editors/Editors"
 
 const Info = {
-  title: "中華文化常備書目",
+  title: "常備書目",
 
   update: [2023,1,10],
 
@@ -13,14 +13,9 @@ const Info = {
 
   authors: [
     {
-      data: Editors.Editor_WangChen,
-      role: "撰文",
-    },
-
-    {
-      data: Editors.Editor_ZhouSheng,
-      role: "校稿",
-    },
+      data: Editors.Editor_Team,
+      role: "编辑"
+    }
   ],
 
   relatedBooks: [
