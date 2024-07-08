@@ -26,7 +26,7 @@ export default function Content() {
 
         stories = {[
           Stories.Story_TheLightOfCompassionBeyondHell,
-          Stories.Story_ChineseCultureDigitalLibrary,
+          Stories.Story_BibliographyOfEssentialWorks,
           Stories.NBL_ScienceAndCivilizationInChina,
         ]}
       />
@@ -55,7 +55,7 @@ export default function Content() {
 
         stories = {[
           Stories.Story_TheLightOfCompassionBeyondHell,
-          Stories.Story_ChineseCultureDigitalLibrary,
+          Stories.Story_BibliographyOfEssentialWorks,
           Stories.NBL_ScienceAndCivilizationInChina,
         ]}
       />

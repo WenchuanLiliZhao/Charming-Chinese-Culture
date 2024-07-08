@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Article from "../../Components/Article/Article";
 import PageHeader from "../../Components/Heading/PageHeader";
 import Footer from "../../Components/Navigations/Footer";

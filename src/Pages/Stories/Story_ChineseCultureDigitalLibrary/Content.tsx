@@ -1,5 +1,5 @@
-import FileCard from "../../../Components/Cards/FileCard";
-import OuterLinkCard from "../../../Components/Cards/OuterLinkCard";
+import FileCard from "../../../Components/Cards/InArticle/FileCard";
+import OuterLinkCard from "../../../Components/Cards/InArticle/OuterLinkCard";
 import StoriesLayout from "../StoriesLayout";
 import Info from "./Info";
 
