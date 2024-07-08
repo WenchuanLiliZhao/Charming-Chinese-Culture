@@ -10,7 +10,7 @@ export default function Content() {
   return (<>
     <RootLayout info={Info}>
 
-      <WarriorStoryCard label="活動推薦" story={Stories.Story_TheLightOfCompassionBeyondHell} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_ExhibitionOfSpecialBookCollections} />
 
       <WarriorStoryCard label="活動推薦" story={Stories.Story_BibliographyOfEssentialWorks} />
 
@@ -22,7 +22,7 @@ export default function Content() {
         quoteFrom = "《農政全書》（徐光啓著）"
 
         stories = {[
-          Stories.Story_TheLightOfCompassionBeyondHell,
+          Stories.Story_ExhibitionOfSpecialBookCollections,
           Stories.Story_BibliographyOfEssentialWorks,
           Stories.NBL_ScienceAndCivilizationInChina,
           Stories.NBL_Story4,

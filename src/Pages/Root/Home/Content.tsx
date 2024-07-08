@@ -25,13 +25,13 @@ export default function Content() {
         quoteFrom = "《農政全書》（徐光啓著）"
 
         stories = {[
-          Stories.Story_TheLightOfCompassionBeyondHell,
+          Stories.Story_ExhibitionOfSpecialBookCollections,
           Stories.Story_BibliographyOfEssentialWorks,
           Stories.NBL_ScienceAndCivilizationInChina,
         ]}
       />
 
-      <WarriorStoryCard label="活動推薦" story={Stories.Story_TheLightOfCompassionBeyondHell} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_ExhibitionOfSpecialBookCollections} />
 
       <BooksSection
         label = "敦煌奇遇"
@@ -45,7 +45,7 @@ export default function Content() {
         Books.Book_TheSocialContract,
       ]} />
 
-      <WarriorStoryCard label="活動推薦" story={Stories.Story_TheLightOfCompassionBeyondHell} />
+      <WarriorStoryCard label="活動推薦" story={Stories.Story_ExhibitionOfSpecialBookCollections} />
 
 
       <StoriesSection
@@ -54,7 +54,7 @@ export default function Content() {
         quoteFrom = "《農政全書》（徐光啓著）"
 
         stories = {[
-          Stories.Story_TheLightOfCompassionBeyondHell,
+          Stories.Story_ExhibitionOfSpecialBookCollections,
           Stories.Story_BibliographyOfEssentialWorks,
           Stories.NBL_ScienceAndCivilizationInChina,
         ]}

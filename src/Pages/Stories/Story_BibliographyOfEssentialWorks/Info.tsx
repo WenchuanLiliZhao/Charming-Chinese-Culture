@@ -1,5 +1,6 @@
 // import Authors from "../../Authors/Authors"
 import Books from "../../Books/Books"
+import Editors from "../../Editors/Editors"
 // import Editors from "../../Editors/Editors"
 
 const Info = {
@@ -11,16 +12,15 @@ const Info = {
   cover: "https://lh3.google.com/u/0/d/1qTGktpD50uGygAxezGUE0DSsy9gIxRnu=w3600-h2010-iv1",
 
   authors: [
-    // {
-    //   data: Authors.Author_JosephNeedham,
-    //   role: "作者",
-    // },
+    {
+      data: Editors.Editor_WangChen,
+      role: "撰文",
+    },
 
-    // {
-    //   data: Editors.Editor_ZhaoWenchuan,
-    //   role: "翻譯",
-    //   display: false,
-    // },
+    {
+      data: Editors.Editor_ZhouSheng,
+      role: "校稿",
+    },
   ],
 
   relatedBooks: [
