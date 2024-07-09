@@ -1,4 +1,5 @@
 
+import OuterLinkCard from "../../../Components/Cards/InArticle/OuterLinkCard";
 import StoriesLayout from "../StoriesLayout";
 import Info from "./Info";
 
@@ -9,6 +10,16 @@ export default function Content() {
         <h2>動手體驗中華文化中的造物智慧</h2>
         
         <p>中華優秀傳統文化是中華民族賴以發展的根基，是涵養文化自信的沃土，非物質文化遺產是其中重要的組成部分。「中華非遺手工課」介紹了非遺文化中的淵源故事、傳統技藝及其蘊含的東方美學，將會豐富青少年對中華燦爛文化的認識，增強對國家的認同感和歸屬感。</p>
+
+        <OuterLinkCard
+         title="中華非遺手工課套材"
+
+         brief="中華優秀傳統文化是我們民族賴以發展的根基，是涵養文化自信的沃土，非物質文化遺產是中華深厚文化積澱的重要組成部分，凝聚了數千年來無數先輩的心血與智慧。然而，這些獨特且極具代表性的文化傳承因為社會的發展變化和其他因素的影響正面臨失傳和逐漸消失的危險。保護和弘揚非遺文化，讓人們重新體會到其獨特的魅力與價值，正是我們的信念與初衷。"
+
+         cover = "https://lh3.google.com/u/0/d/14MUPpQ5iZa3EQsFJNCKaIm-4sJSwSOpU=w3600-h2010-iv1"
+
+         link = "https://docs.google.com/presentation/d/1X-7yy6huYT1ruVpF29zqO1hBb_KQYWZ3/edit#slide=id.p1"
+        />
 
         <p>「中華非遺手工課」在遵循傳統非遺技藝的基礎上，提供了難易兩種程度的DIY體驗模式。課程包括：淺顯易懂的操作流程說明書、詳細的教學視頻、全套製作工具並配備專業導師入校上堂。</p>
 
