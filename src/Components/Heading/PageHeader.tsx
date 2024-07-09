@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./PageHeader.scss"
 
 export default function PageHeader(props: any) {
@@ -8,6 +9,7 @@ export default function PageHeader(props: any) {
   const title = info.title
   const authors = info.authors
   const brief = info.brief
+
   const quote = info.quote
   const quoteFrom = info.quoteFrom
   const align = props.align // center, left

@@ -30,35 +30,35 @@ export default function Content() {
         cover="https://lh3.google.com/u/0/d/12FiZYc8o3g8Y5-O8EJnTmn1ssn4hT8Dv=w3600-h2010-iv1"
         title="琴棋書畫"
         brief="琴棋書畫主題閱讀書單，提升藝術鑑賞能力。"
-        fileLink="https://docs.google.com/spreadsheets/d/1TftE4sMaXtxCC2KZL5XE8VDETJIOsnQW9ejZ_symGiA/edit?gid=0#gid=0"
+        fileLink="https://docs.google.com/spreadsheets/d/1RCFkT-MhM0qQ7EE1QfPeiFpXQaR_auL5-_gkDxvOw0o/edit?gid=0#gid=0"
       />
 
       <FileCard
         cover="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbhGddwsMOW8U5smnTZUNsT4e7yN4NMYk2qs-3sMwONYpGkskyvAz5xP3mbSLMhey_NNtP9_tvBHpUQ4wcaUSYL6j7J4bmUIg=w3568-h2010-rw-v1"
         title="古蜀文化之源｜三星堆"
         brief="三星堆考古發現揭示了古蜀文明在中華文明發展史上的重要地位，是中國文化遺產的重要組成部分，為我們認識中華文明的歷史演進提供了寶貴線索，彰顯了中華文明悠久燦爛的歷史底蘊。"
-        fileLink="https://drive.google.com/file/d/1TboVs75HmPTY7adyzreAfHWucphYWJyz/preview"
+        fileLink="https://docs.google.com/spreadsheets/d/1WLPQYETQqIGLfhtpke-m8_mo-AW1fFl7VyyOy6SKQ_Q/edit?gid=0#gid=0"
       />
 
       <FileCard
         cover="https://lh3.google.com/u/0/d/1EtateOAC_yORUvQ_SmCeSKj5jYUxH4WW=w3600-h2010-iv1"
         title="中國文化符號｜故宮"
         brief="故宮是中國歷代皇室的政治中心，集八方之大成於一體，其建築風格、歷史故事、瑰寶藝術等都是中華文明數千年傳統的濃縮和呈現。"
-        fileLink="https://docs.google.com/spreadsheets/d/1TftE4sMaXtxCC2KZL5XE8VDETJIOsnQW9ejZ_symGiA/edit?gid=0#gid=0"
+        fileLink="https://docs.google.com/spreadsheets/d/1fzFtULmWTlLg8YQ3Ofj3hIPIHZ7YzRG8flsPipQNWqg/edit?gid=0#gid=0"
       />
 
       <FileCard
         cover="https://lh3.google.com/u/0/d/1hmk_axLR5NhYDO7LRuIMc_8dlFesUXEr=w3600-h2010-iv1"
         title="中國文化符號｜長城"
         brief="長城是中華民族奮勇史詩的縮影，凝聚了中華民族世代相傳的愛國情懷和民族精神。"
-        fileLink="https://docs.google.com/spreadsheets/d/1TftE4sMaXtxCC2KZL5XE8VDETJIOsnQW9ejZ_symGiA/edit?gid=0#gid=0"
+        fileLink="https://docs.google.com/spreadsheets/d/1N_h32pKTyWHaqwazq-hYc-iy-C5oKkcEHJNzWoRIN0o/edit?gid=0#gid=0"
       />
 
       <FileCard
         cover="https://lh3.google.com/u/0/d/1UNowWJRdduXN_pPpXVg-FWGMwkf5agIA=w3600-h2010-iv1"
         title="連同世界的路｜絲綢之路"
         brief="絲綢之路是中國古代重要的跨文明交流通道，推動了經濟全球化的發展，為世界不同地區的文明交流、科技創新、政治外交作出重大貢獻。"
-        fileLink="https://docs.google.com/spreadsheets/d/1TftE4sMaXtxCC2KZL5XE8VDETJIOsnQW9ejZ_symGiA/edit?gid=0#gid=0"
+        fileLink="https://docs.google.com/spreadsheets/d/1I0NINumRRqRTWJ6gNRbxkMRlk7L0Twq0SMtUyvCWQ3A/edit?gid=0#gid=0"
       />
     </StoriesLayout>
   );

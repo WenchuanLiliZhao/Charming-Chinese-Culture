@@ -5,7 +5,6 @@ import Stories from "../../Stories/Stories";
 import RootLayout from "../RootLayout";
 import Info from "./Info";
 
-
 export default function Content() {
   return (<>
     <RootLayout info={Info}>

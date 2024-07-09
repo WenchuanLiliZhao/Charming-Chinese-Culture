@@ -12,7 +12,7 @@ export default function StoriesLayout(props: any) {
     <SiteRoof />
     <Nav />
 
-    <PageHeader info={info} align={`left`}/>
+    <PageHeader info={info} align={`left`} />
 
     <Article>
       <figure>
