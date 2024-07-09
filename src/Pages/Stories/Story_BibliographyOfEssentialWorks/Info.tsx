@@ -9,7 +9,7 @@ const Info = {
   update: [2024,6,30],
 
   key: `Story_BibliographyOfEssentialWorks`,
-  cover: "https://lh3.google.com/u/0/d/1qTGktpD50uGygAxezGUE0DSsy9gIxRnu=w3600-h2010-iv1",
+  cover: "https://lh3.google.com/u/0/d/1LaWNGQ6IHDWh4jrFfUE46lwSUkonPXl2=w1860-h1908-iv1",
 
   authors: [
     {

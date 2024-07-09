@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// import { Link } from "react-router-dom";
 import "./HeroStoryCard.scss"
 
 export default function HeroStoryCard(props: any) {
@@ -10,7 +11,7 @@ export default function HeroStoryCard(props: any) {
   const title = story.info.title;
   const brief = story.info.brief;
   const authors = story.info.authors;
-  const link = `/${story.info.key}`;
+  const link = `${story.info.key}`;
 
 
   const heroCardCover = (<>
@@ -24,9 +25,9 @@ export default function HeroStoryCard(props: any) {
   const heroCardInfo = (<>
     <div className="hero-story-info">
       <div className="hero-story-info-container">
-        <div className="story-label">
+        {/* <div className="story-label">
           當前活動
-        </div>
+        </div> */}
         <div className="story-title font-article">
           {title}
         </div>
@@ -58,21 +59,21 @@ export default function HeroStoryCard(props: any) {
 
   return (<>
     <section className={`hero-story-card big page-section-fullwidth-alone ${props.className}`}>
-      <Link to={link}>
+      <a href={link} target="_blank">
         <div className="hero-story-card-container">
           {heroCardInfo}
           {heroCardCover}
         </div>
-      </Link>
+      </a>
     </section>
 
     <section className={`hero-story-card small page-section-fullwidth-alone  ${props.className}`}>
-      <Link to={link}>
+      <a href={link} target="_blank">
         <div className="hero-story-card-container">
           {heroCardCover}
           {heroCardInfo}
         </div>
-      </Link>
+      </a>
     </section>
   </>)
 }

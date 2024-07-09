@@ -18,7 +18,7 @@ export default function Content() {
 
          cover = "https://lh3.google.com/u/0/d/14MUPpQ5iZa3EQsFJNCKaIm-4sJSwSOpU=w3600-h2010-iv1"
 
-         link = "https://docs.google.com/presentation/d/1X-7yy6huYT1ruVpF29zqO1hBb_KQYWZ3/edit#slide=id.p1"
+         link = "https://drive.google.com/file/d/1vu0hXaFKHY_ucla9XatzvzNMGeYQG2-M/view"
         />
 
         <p>「中華非遺手工課」在遵循傳統非遺技藝的基礎上，提供了難易兩種程度的DIY體驗模式。課程包括：淺顯易懂的操作流程說明書、詳細的教學視頻、全套製作工具並配備專業導師入校上堂。</p>

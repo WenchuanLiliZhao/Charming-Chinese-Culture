@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `Story_Hardware`,
-  cover: "https://lh3.google.com/u/0/d/1Xh84Hv6TjW8EaKGKrTwOaDs0EtmLpCJ8=w2822-h2010-iv1",
+  cover: "https://lh3.google.com/u/0/d/1Yey6uckoRZoe-OYtDtB1FxglFfjVJHW6=w1860-h1908-iv1",
 
   authors: [
     {

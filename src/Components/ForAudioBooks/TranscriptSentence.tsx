@@ -1,4 +1,4 @@
-// TP.tsx
+// <TP></TP>
 import React, { useRef, useEffect } from 'react';
 import "./TranscriptSentence.scss"
 

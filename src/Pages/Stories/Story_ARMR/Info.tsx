@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `Story_ARMR`,
-  cover: "https://lh3.google.com/u/0/d/1PDLV16vGN-b2-d1SN6iB8jyZt2_ooHD-=w3600-h2010-iv1",
+  cover: "https://lh3.google.com/u/0/d/1sFuzvJutca3CJ-ngH57OHMa7jFKBPN6V=w1860-h1908-iv1",
 
   authors: [
     {

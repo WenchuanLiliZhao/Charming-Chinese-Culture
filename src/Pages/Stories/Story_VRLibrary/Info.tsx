@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `Story_VRLibrary`,
-  cover: "https://i.pinimg.com/564x/3d/06/d0/3d06d06111a10fe4bf015ccc6450c977.jpg",
+  cover: "https://lh3.google.com/u/0/d/1MR0HNfLV38aIChU9ttKlimeXMtM9AMoX=w2822-h2010-iv1",
 
   authors: [
     {
