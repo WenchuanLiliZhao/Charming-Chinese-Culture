@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `Story_AITool`,
-  cover: "https://lh3.google.com/u/0/d/1WrpSJv4GqMuQzMpLh7U51mpFkKjINKNn=w2822-h2010-iv1",
+  cover: "https://i.pinimg.com/originals/95/2e/b6/952eb64db5382f4a81dfde7898c25dac.png",
 
   authors: [
     {

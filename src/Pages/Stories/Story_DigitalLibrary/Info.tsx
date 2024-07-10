@@ -8,7 +8,7 @@ const Info = {
   update: [2024,7,4],
   
   key: `Story_ChineseCultureDigitalLibrary`,
-  cover: "https://lh3.google.com/u/0/d/1-fW9XraBolw5ChiQ1dLPWZlprVe3sn5W=w1860-h1908-iv1",
+  cover: "https://i.pinimg.com/originals/12/d8/8d/12d88dce59a8043c83b630bfd67ef3ee.png",
 
   coverFrom: "Susan Q Yin @ Unsplash",
 

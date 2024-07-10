@@ -7,7 +7,7 @@ const Info = {
   update: [2024,7,1],
 
   key: `Story_ExhibitionOfSpecialBookCollections`,
-  cover: "https://lh3.google.com/u/0/d/17H4RrLOjCkgQbkCqhxBJDzqSonJuqWPS=w2822-h2010-iv1",
+  cover: "https://i.pinimg.com/originals/3c/ef/87/3cef8724bfd1495c757e8be73b441612.jpg",
 
   authors: [
     {

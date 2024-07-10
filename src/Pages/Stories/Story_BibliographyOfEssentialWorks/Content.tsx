@@ -14,13 +14,13 @@ export default function Content() {
 
         <NGrid columnsCount={2}>
           <FileCard
-            cover="https://lh3.google.com/u/0/d/1Vey2kujeFWFFBeo51wbcjTOdavQ9yhH3=w3600-h2010-iv1"
+            cover="https://i.pinimg.com/originals/82/89/5c/82895c688acb485ed400b53b59db992d.png"
             title="中華文化開館包（中學）"
             fileLink="https://docs.google.com/spreadsheets/d/1ci0hN9CAEo47Cq_iBA_qHCWTcAwi3bP2/edit?gid=2023734986#gid=2023734986"
           />
 
           <FileCard
-            cover="https://lh3.google.com/u/0/d/1o_zRUnQre0MAkqQcNUI_wm7bZbeLVr0u=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/29/4b/8c/294b8c46fe60f460445f91ae947040d3.png"
             title="中華文化開館包（小學）"
             fileLink="https://docs.google.com/spreadsheets/d/1sniiAhHNVxXUhEATSqWXUeMLcL_QaIfa/edit?gid=1062212633#gid=1062212633"
           />
@@ -33,23 +33,22 @@ export default function Content() {
         <NGrid columnsCount={2}>
           <FileCard
             title="中學中文科"
-            cover="https://lh3.google.com/u/0/d/1On5Jr0bTQN77PKUGwFCQCIyLV38q1KrD=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/c5/e0/61/c5e0610ba7236e7981c7143074c73f95.png"
           />
 
           <FileCard
             title="中學公民與社會發展科"
-            cover="https://lh3.google.com/u/0/d/1JYxqQrNrS3MvTZAKhqU2J5kjiWXlx3Z9=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/10/23/98/1023987d1e694be9a31072f92d2403db.png"
           />
 
           <FileCard
             title="中學資訊及通訊科技"
-            cover="https://lh3.google.com/u/0/d/1PJnfB98ztugZWhoEmfxvh0g8gnX7MzxJ=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/6f/1d/2c/6f1d2c31ea02067f0b07331fd083a539.png"
           />
 
           <FileCard
             title="國家安全教育（中學）"
-            cover="https://lh3.google.com/u/0/d/1aOiYdYWRXGU8NaButnhbB7oqRd_3ARqG=w2402-h2010-iv1"
-            fileLink="https://docs.google.com/spreadsheets/d/1ZcYLON5UugX5E4P4ph9Au9j6w3h4hoNk/edit?usp=drive_link&ouid=113759157526745381968&rtpof=true&sd=true"
+            cover="https://i.pinimg.com/originals/d5/9a/c0/d59ac08e6435059f7b135b0027b94962.png"
           />
         </NGrid>
 
@@ -60,23 +59,22 @@ export default function Content() {
         <NGrid columnsCount={2}>
           <FileCard
             title="小學中國語文科"
-            cover="https://lh3.google.com/u/0/d/1niQEgyKvH47ZPycCVQixIst-WUXJr8IX=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/1b/f1/da/1bf1da174db5e65d3b50cb55aa8f8eb8.png"
           />
 
           <FileCard
             title="小學科學科"
-            cover="https://lh3.google.com/u/0/d/1I2C7jEnOR4SZkGpfD3LISaYXe-4SvICO=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/c0/29/66/c029665ce0a81dc77225bf273513f525.png"
           />
 
           <FileCard
             title="小學人文科"
-            cover="https://lh3.google.com/u/0/d/1jlI8dzqBm9I1s4W1Q41fZi_fqeUUc1Y5=w2402-h2010-iv1"
+            cover="https://i.pinimg.com/originals/7a/39/ac/7a39aca0e5e19470685117fea2e32f0f.png"
           />
 
           <FileCard
             title="國家安全教育（小學）"
-            cover="https://lh3.google.com/u/0/d/17LA6Ed6JqZh6slGUhxCitzm2wV0M2vTG=w2402-h2010-iv1"
-            fileLink="https://docs.google.com/spreadsheets/d/1QCx7l0H55r_AQAbrL6e09oJ8DH5rsHDl/edit?usp=drive_link&ouid=113759157526745381968&rtpof=true&sd=true"
+            cover="https://i.pinimg.com/originals/49/a8/cf/49a8cf1d9bfa6e9e8ae7da0d38983144.png"
           />
         </NGrid>
 

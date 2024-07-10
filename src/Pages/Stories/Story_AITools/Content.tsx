@@ -16,7 +16,7 @@ export default function Content() {
         <p>「音樂伴學課程」收錄了「培生音樂教材」，內置卡拉OK、音樂舞蹈、音樂遊戲、樂譜等功能充分激活了機械人全身的靈活運動功能，具備良好的三維互動交互效果。它們即將走進課堂成為音樂小助教，與學生們共度藝術時光。此外，機械人開放的生態系統支持自由安裝近千款應用程式，極大地豐富了機械人在校園中的使用場景。</p>
 
         <figure>
-          <img src="https://lh3.google.com/u/0/d/1BgzpktuKxzu4-zFZMJlVpniobmjosEov=w2638-h1908-iv1" alt="" />
+          <img src="https://i.pinimg.com/originals/1a/f5/00/1af5009cb403f1ed18db10f2cdf3e499.png" alt="" />
         </figure>
 
         <h2>智能交互數字人 Miss So</h2>
@@ -24,7 +24,7 @@ export default function Content() {
         <p>作為香港首位來自虛擬世界的數字人教師蘇怡文（Miss So），可以用多種語言講解課程知識、品鑒詩詞歌賦、還原化學實驗、探究科學原理，加深同學們對於自然知識的了解；她還能展現古詩文所描繪的畫面，帶領學生進入詩句所描繪的絢爛世界。</p>
 
         <figure>
-          <img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZMcCiD2IrRQ0W8-0rqLfXGUvxtn9UsTs0Rt212c-h_O4ahzbkDHbBAkRC9yVmtlliecEl1aGuIFUgtH1CL9D2l27hCtJvqqMw=w2790-h2010-rw-v1" alt="" />
+          <img src="https://i.pinimg.com/originals/1e/11/75/1e1175d5109127ccac0f36f9aa4f36b7.webp" alt="" />
         </figure>
 
         <p>未來，她將能夠24小時在線互動交流，結合每位同學的特點做到針對性預習、練習和複習，發展每個孩子的特長，陪伴同學們愉快地學習與成長。</p>

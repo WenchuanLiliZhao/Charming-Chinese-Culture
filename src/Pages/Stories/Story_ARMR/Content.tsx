@@ -40,7 +40,7 @@ export default function Content() {
 
         <figure>
           <img
-            src="https://lh3.google.com/u/0/d/1V-wZexnB2nW3__EifeZKHRI9eISAA2Bn=w2822-h2010-iv1"
+            src="https://i.pinimg.com/originals/d6/6b/a2/d66ba2dc7dd595cd819c8ff8562730e5.png"
             alt=""
           />
 
@@ -50,7 +50,7 @@ export default function Content() {
         </figure>
 
         <figure>
-          <img src="https://lh3.google.com/u/0/d/1nhLvdZ2MgdYMUAo-nRkWwJNDF51fLQmJ=w2822-h2010-iv1" alt="" />
+          <img src="https://i.pinimg.com/originals/cf/af/e8/cfafe8597ee22e99057e6ed7b7b1182c.png" alt="" />
 
           <figcaption>
           通過互動學習，體驗者利用AR技術穿越時空，體驗「活」起來的國寶文物、傳統習俗。

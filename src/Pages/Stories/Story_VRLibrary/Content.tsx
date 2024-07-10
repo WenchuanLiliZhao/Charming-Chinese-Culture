@@ -15,49 +15,49 @@ export default function Content() {
       <NGrid columnsCount={2}>
         <FileCard
           title = "中華傳統節日·七夕節"
-          cover = "https://lh3.google.com/u/0/d/1wTmcm2ppnOLaeLmZS16u9YnmVcTphYey=w2638-h1908-iv1"
+          cover = "https://i.pinimg.com/originals/4d/29/6a/4d296adaf62de8e220ec081e1149b12f.jpg"
           fileLink = "https://library.reaker.net/detail?id=315"
         />
 
         <FileCard
           title = "槽運千帆·運河歷史"
-          cover = "https://lh3.google.com/u/0/d/12tuk_nvpoqqfsdecUs2tDhH2NggT1wrp=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/f7/69/8f/f7698f94d871fbd59942a0c5ad3c3bb2.jpg"
           fileLink = "https://library.reaker.net/detail?id=315"
         />
 
         <FileCard
           title = "中華傳統節日·清明節"
-          cover = "https://lh3.google.com/u/0/d/1loS6Ybq159tdaoCIoLJlC8pj-BQvPfEc=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/72/e8/03/72e803a52fcb37d221fed5cf32fbf1a4.jpg"
           fileLink = "https://library.reaker.net/detail?id=347"
         />
 
         <FileCard
           title = "中華傳統節日·端午"
-          cover = "https://lh3.google.com/u/0/d/1XLQ2SMVBBDbol0DRLkFQzkVh2UgQnvC7=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/37/62/2e/37622e67a5cee59d72d1d994dfe13f74.jpg"
           fileLink = "https://library.reaker.net/detail?id=346"
         />
 
         <FileCard
           title = "墨·中國-顧閎中與韓熙載夜宴圖下"
-          cover = "https://lh3.google.com/u/0/d/11G1vsHMEEkpSUAOG-M9s1cga8tji-UWw=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/8a/26/7e/8a267e6302710a941da362b20acb6a6f.jpg"
           fileLink = "https://library.reaker.net/detail?id=345"
         />
 
         <FileCard
           title = "千里江山圖"
-          cover = "https://lh3.google.com/u/0/d/15-ybCQitWAN5r5VYUoaTmKL_nv8mBbQs=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/c9/50/86/c9508673584c6cf77adca55d08bea212.jpg"
           fileLink = "https://library.reaker.net/detail?id=319"
         />
 
         <FileCard
           title = "福聚八閩 文庫流芳"
-          cover = "https://lh3.google.com/u/0/d/1RsCZWee6g8CLQKr76DrXMOoBAOkLzRTo=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/ea/23/d1/ea23d1ae1f1dd69c5b2d944a23a8865b.jpg"
           fileLink = "https://library.reaker.net/detail?id=318"
         />
 
         <FileCard
           title = "中華傳統節日·重陽節"
-          cover = "https://lh3.google.com/u/0/d/1YRUR4o8TjyqoEeXgOVNGEobSwXjdnmAA=w2822-h2010-iv1"
+          cover = "https://i.pinimg.com/originals/43/40/8d/43408d05e8169af02e058ca33d4dd4ed.jpg"
           fileLink = "https://library.reaker.net/detail?id=317"
         />
 
