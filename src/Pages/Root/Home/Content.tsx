@@ -34,6 +34,20 @@ export default function Content() {
 
       <WarriorStoryCard label="產品推薦" story={Stories.Story_HandicraftsLessons} />
 
+      <StoriesSection
+        label = "服務資訊"
+        // quote = "學問之道無他，全在求真"
+        // quoteFrom = "《農政全書》（徐光啓著）"
+
+        stories = {[
+          Stories.Story_Post0001,
+          Stories.Story_Post0002,
+          Stories.Story_Post0003,
+        ]}
+      />
+
+      <WarriorStoryCard label="服務資訊" story={Stories.Story_Post0004} />
+
       
 
       {/* <BooksSection
