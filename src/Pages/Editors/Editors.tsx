@@ -2,6 +2,7 @@ import Editor_ShaoQianwen from "./ShaoQianwen/0_Repo";
 import Editor_Team from "./Team/0_Repo";
 import Editor_WangChen from "./WangChen/0_Repo";
 import Editor_ZhaoWenchuan from "./ZhaoWenchuan/0_Repo";
+import Editor_ZhiShiHK from "./ZhiShuHK/0_Repo";
 import Editor_ZhouSheng from "./ZhouSheng/0_Repo";
 
 const Editors = {
@@ -9,7 +10,8 @@ const Editors = {
   Editor_ZhaoWenchuan,
   Editor_Team,
   Editor_WangChen,
-  Editor_ZhouSheng
+  Editor_ZhouSheng,
+  Editor_ZhiShiHK,
 }
 
 export default Editors

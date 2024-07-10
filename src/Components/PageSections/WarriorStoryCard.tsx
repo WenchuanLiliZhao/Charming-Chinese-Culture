@@ -1,13 +1,18 @@
-import { Link } from "react-router-dom"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import "./WarriorStoryCard.scss"
 
 export default function WarriorStoryCard(props: any) {
   const story = props.story
   const label = props.label
 
+  const link = story.info.key;
+
+  // 判斷 link.startsWith("https:")
+
   return (<>
     <section className="page-section-big-alone">
-      <Link to={`/${story.info.key}`}>
+      <a href={link.startsWith("https:") == true ? `${story.info.key}` : `/${story.info.key}`} target={link.startsWith("https:") == true ? `_blank` : `_self`} >
         <div className="warrior-story-card">
 
         <div className="cover-container div-bg-img">
@@ -43,7 +48,7 @@ export default function WarriorStoryCard(props: any) {
         </div>
         
       </div>
-      </Link>
+      </a>
     </section>
   </>)
 }

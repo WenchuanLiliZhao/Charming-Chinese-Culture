@@ -1,4 +1,4 @@
-import StoriesSection from "../../../Components/PageSections/StoriesSection";
+
 import WarriorStoryCard from "../../../Components/PageSections/WarriorStoryCard";
 import Stories from "../../Stories/Stories";
 import RootLayout from "../RootLayout";
@@ -9,17 +9,13 @@ export default function Content() {
   return (<>
     <RootLayout info={Info}>
 
-      <WarriorStoryCard story={Stories.Story_VRLibrary} />
+      <WarriorStoryCard story={Stories.Story_Post0002} label="服務資訊" />
 
-      <StoriesSection
-        stories = {[
-          Stories.Story_ExhibitionOfSpecialBookCollections,
-          Stories.Story_DigitalLibrary,
-          Stories.Story_BibliographyOfEssentialWorks,
-          Stories.Story_VRLibrary,
-          Stories.Story_ExhibitionOfSpecialBookCollections,
-        ]}
-      />
+      <WarriorStoryCard story={Stories.Story_Post0001} label="服務資訊" />
+
+      <WarriorStoryCard story={Stories.Story_Post0003} label="服務資訊" />
+
+      <WarriorStoryCard story={Stories.Story_Post0004} label="服務資訊" />
     </RootLayout>
   </>)
 }
