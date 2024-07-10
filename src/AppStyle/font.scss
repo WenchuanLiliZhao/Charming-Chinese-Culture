@@ -66,6 +66,10 @@ body {
   // }
 }
 
+.material-symbols-outlined {
+  vertical-align: middle
+}
+
 p, .p, li {
   @include font-size(1);
 
