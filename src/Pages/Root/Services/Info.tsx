@@ -1,5 +1,5 @@
 const Info = {
-  title: "服務資訊",
+  title: "體驗活動",
   key: "services",
 
   quote: "至人之用心若鏡，不將不迎，應而不藏，故能勝物而不傷。",
