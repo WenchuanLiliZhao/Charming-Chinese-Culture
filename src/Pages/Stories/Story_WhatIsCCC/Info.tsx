@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `https://youtu.be/ISAoCbV_rFo`,
-  cover: "https://i.pinimg.com/originals/a8/98/8b/a8988ba049ba9fe8cbe1ac56ed391286.png",
+  cover: "https://i.pinimg.com/originals/e6/d0/cd/e6d0cdaccb8b3a3a8b95f7051509d3c0.png",
 
   authors: [
     {

@@ -25,9 +25,9 @@ export default function HeroStoryCard(props: any) {
   const heroCardInfo = (<>
     <div className="hero-story-info">
       <div className="hero-story-info-container">
-        {/* <div className="story-label">
-          當前活動
-        </div> */}
+        <div className="story-label">
+          歡迎來到
+        </div>
         <div className="story-title font-article">
           {title}
         </div>
