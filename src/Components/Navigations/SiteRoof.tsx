@@ -6,7 +6,7 @@ export default function SiteRoof() {
     <div className="site-roof">
       <div className="site-names">
         <div className="site-name-tc">
-          {SiteInfo.title}
+          <a href="/">{SiteInfo.title}</a>
         </div>
         {/* <div className="site-name-en">
         {SiteInfo.title_en}
@@ -15,3 +15,5 @@ export default function SiteRoof() {
     </div>
   </>)
 }
+
+

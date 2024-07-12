@@ -21,6 +21,11 @@
       
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      @media only screen and (max-width:800px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+
       gap: var(--content-h-padding);
 
       border-bottom: 1px dashed rgba(black, 0.08);
@@ -37,6 +42,11 @@
       .site-footer-links {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        @media only screen and (max-width:700px) {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+
         gap: 24px;
         margin-top: 5px;
 

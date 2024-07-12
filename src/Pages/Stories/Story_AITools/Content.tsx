@@ -30,18 +30,18 @@ export default function Content() {
         <p>未來，她將能夠24小時在線互動交流，結合每位同學的特點做到針對性預習、練習和複習，發展每個孩子的特長，陪伴同學們愉快地學習與成長。</p>
 
         <YouTubeVideo
-          src="https://drive.google.com/file/d/1eZMY55UCcRW58Wy0FzrEnP4VOspQ_cmx/preview"
-          caption="個人介紹"
+          src="https://www.youtube.com/embed/2hgROy8TGVw"
+          // caption="虛擬人教師──Miss So自我介紹"
         />
 
         <YouTubeVideo
-          src="https://drive.google.com/file/d/1R7G4wC9mSDnefER6OKvIlDjdAhaJoCCb/preview"
-          caption="Miss So 薦書（粵語）"
+          src="https://www.youtube.com/embed/tnqYFYTdQvY"
+          // caption="虛擬人教師Miss So薦書──Miss So帶你遊深港（粵語）"
         />
 
         <YouTubeVideo
-          src="https://drive.google.com/file/d/17cJfenbK0Rr-QiOojhNPzHZZLvK7YXNa/preview"
-          caption="Miss So薦書（普通話）"
+          src="https://www.youtube.com/embed/JjTmDTFKW7Y"
+          // caption="虛擬人教師Miss So薦書──Miss So帶你遊深港（普通話）"
         />
       </StoriesLayout>
     </>
