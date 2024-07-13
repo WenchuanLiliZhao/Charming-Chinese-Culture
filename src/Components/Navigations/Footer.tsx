@@ -46,12 +46,12 @@ export default function Footer() {
                 <ul className="site-footer-list-container">
                   <p>
                     <span className="material-symbols-outlined">mail</span>{" "}
-                    cs@suep.com
+                    info@suep.com / marketing@suep.com
                   </p>
 
                   <p>
                     <span className="material-symbols-outlined">call</span>{" "}
-                    98249587 / 25978415
+                    (852) 2597 8415 / (852)9824 9587
                   </p>
                 </ul>
               </div>

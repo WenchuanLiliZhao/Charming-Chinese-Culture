@@ -53,9 +53,9 @@ export default function Content() {
 
         <h2>聯繫方式</h2>
 
-        <p><span className="material-symbols-outlined">mail</span> cs@suep.com</p>
+        <p><span className="material-symbols-outlined">mail</span> info@suep.com / marketing@suep.com</p>
 
-        <p><span className="material-symbols-outlined">call</span> 98249587 / 25978415</p>
+        <p><span className="material-symbols-outlined">call</span> (852) 2597 8415 / (852)9824 9587</p>
 
       </Article>
     </RootLayout>
