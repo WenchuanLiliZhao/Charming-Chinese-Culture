@@ -9,7 +9,7 @@ const Info = {
   inst: Insts.NBLInst,
 
   key: `Story_HandicraftsLessons`,
-  cover: "https://i.pinimg.com/originals/35/7d/48/357d48c0ebc17d040ec0490c84a0da8b.jpg",
+  cover: "https://i.pinimg.com/originals/8c/70/58/8c7058e132654016905bb2053f80a2f1.jpg",
 
   authors: [
     {

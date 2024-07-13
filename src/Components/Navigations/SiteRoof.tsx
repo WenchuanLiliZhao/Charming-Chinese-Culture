@@ -8,9 +8,6 @@ export default function SiteRoof() {
         <div className="site-name-tc">
           <a href="/">{SiteInfo.title}</a>
         </div>
-        {/* <div className="site-name-en">
-        {SiteInfo.title_en}
-        </div> */}
       </div>
     </div>
   </>)
