@@ -2,7 +2,7 @@ import Editors from "../../Editors/Editors"
 import Insts from "../../Inst/Insts"
 
 const Info = {
-  title: "非遺手工課",
+  title: "中華非遺手工課",
 
   update: [2024,7,10],
 
