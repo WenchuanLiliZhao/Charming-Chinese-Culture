@@ -64,6 +64,12 @@
 
     figure {
       margin: 2em 0;
+
+      &.padding-24 {
+        img {
+          padding: 24px;
+        }
+      }
     }
 
     strong {
