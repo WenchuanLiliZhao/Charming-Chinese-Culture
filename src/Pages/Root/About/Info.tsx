@@ -3,8 +3,8 @@ const Info = {
 
   key: "about",
 
-  quote: "人之立志，顧不如蜀鄙之僧哉？三日不讀書，則覺面目可憎，言語無味。",
-  quoteFrom: "黃庭堅《過平舅故居》",
+  quote: "歡迎來到中華文化有意思",
+  // quoteFrom: "",
 }
 
 export default Info
