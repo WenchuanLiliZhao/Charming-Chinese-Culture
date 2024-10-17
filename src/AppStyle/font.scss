@@ -50,8 +50,6 @@ body {
   color: var(--text-color-main-trans);
   line-height: 1.5;
   letter-spacing: 0.05em;
-
-  
 }
 
 @mixin font-size($factor) {
@@ -121,3 +119,4 @@ h3, .h3 {
   font-size: calc(var(--font-size) * 1.125);
   font-weight: bold;
 }
+
